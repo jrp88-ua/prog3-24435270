@@ -1,7 +1,7 @@
 package model;
 
 /**
- * Immutable class that holds an x and y value
+ * Class that holds an x and y value
  *
  * @author Javier Rodriguez Perez - 24435270R
  */
@@ -39,7 +39,7 @@ public class Coordinate {
 	/**
 	 * Compares this coordinate with the given object
 	 * 
-	 * @param other The other object to compare
+	 * @param obj The other object to compare
 	 * 
 	 * @return True if {@code this == other} or both components of the coordinates
 	 *         match, false otherwise
@@ -53,13 +53,7 @@ public class Coordinate {
 			return false;
 		}
 		Coordinate other = (Coordinate) obj;
-		if (x != other.x) {
-			return false;
-		}
-		if (y != other.y) {
-			return false;
-		}
-		return true;
+		return getX() == other.getX() && getY() == other.getY();
 	}
 
 	/**
@@ -67,11 +61,7 @@ public class Coordinate {
 	 */
 	@Override
 	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + x;
-		result = prime * result + y;
-		return result;
+		return getX() + getY();
 	}
 
 	/**

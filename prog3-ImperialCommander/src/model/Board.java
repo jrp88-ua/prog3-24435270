@@ -1,6 +1,7 @@
 package model;
 
 /**
+ * Class that represents a board
  * 
  * @author Javier Rodriguez Perez - 24435270R
  */
@@ -34,14 +35,22 @@ public class Board {
 		this.size = size;
 	}
 
+	/**
+	 * Creates the hash code of this board
+	 */
 	@Override
 	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + size;
-		return result;
+		return getSize();
 	}
 
+	/**
+	 * Compares this board with the given object
+	 * 
+	 * @param obj The other object to compare
+	 * 
+	 * @return True if {@code this == other} or both boards have the same size,
+	 *         false otherwise
+	 */
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj) {
@@ -51,15 +60,15 @@ public class Board {
 			return false;
 		}
 		Board other = (Board) obj;
-		if (size != other.size) {
-			return false;
-		}
-		return true;
+		return getSize() == other.getSize();
 	}
 
+	/**
+	 * A string representation of the board
+	 */
 	@Override
 	public String toString() {
-		return "Board[size=" + size + "]";
+		return "Board [size=" + size + "]";
 	}
 
 }
