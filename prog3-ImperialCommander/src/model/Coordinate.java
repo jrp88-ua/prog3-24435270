@@ -1,11 +1,14 @@
 package model;
 
+import java.util.Set;
+import java.util.TreeSet;
+
 /**
  * Class that holds an x and y value
  *
  * @author Javier Rodriguez Perez - 24435270R
  */
-public class Coordinate {
+public class Coordinate implements Comparable<Coordinate> {
 
 	/**
 	 * x component
@@ -54,6 +57,48 @@ public class Coordinate {
 		}
 		Coordinate other = (Coordinate) obj;
 		return getX() == other.getX() && getY() == other.getY();
+	}
+
+	/**
+	 * Compares this coordinate such that returns:
+	 * <ol>
+	 * <li>-1 if {@code getX() < o.getX()}</li>
+	 * <li>1 if {@code getX() > o.getX()}</li>
+	 * <li>-1 if {@code getY() < o.getY()}</li>
+	 * <li>1 if {@code getY() > o.getY()}</li>
+	 * <li>0 otherwise</li>
+	 * </ol>
+	 * in that order
+	 * 
+	 * @param o The other coordinate
+	 * 
+	 * @return -1, 0 or 1 according to what is established before
+	 */
+	@Override
+	public int compareTo(Coordinate o) {
+		if (getX() < o.getX())
+			return -1;
+		if (getX() > o.getX())
+			return 1;
+		if (getY() < o.getY())
+			return -1;
+		if (getY() > o.getY())
+			return 1;
+		return 0;
+	}
+
+	/**
+	 * Gets the surrounding coordinates
+	 * 
+	 * @return A ordered set with the surrounding coordinates
+	 */
+	public Set<Coordinate> getNeighborhood() {
+		Set<Coordinate> s = new TreeSet<>();
+		for (int i = -1; i <= 1; i++)
+			for (int j = -1; j <= 1; j++)
+				if (i != 0 || j != 0)
+					s.add(this.add(i, j));
+		return s;
 	}
 
 	/**
