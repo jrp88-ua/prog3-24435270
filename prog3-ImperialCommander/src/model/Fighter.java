@@ -47,13 +47,6 @@ public class Fighter {
 	private Coordinate position;
 
 	/**
-	 * Resets the id counter
-	 */
-	public static void resetNextId() {
-		nextId = 1;
-	}
-
-	/**
 	 * Creates a new fighter
 	 * 
 	 * @param type   The fighter type
@@ -82,6 +75,13 @@ public class Fighter {
 		this.id = f.id;
 		this.motherShip = f.motherShip;
 		this.position = f.position;
+	}
+
+	/**
+	 * Resets the id counter
+	 */
+	public static void resetNextId() {
+		nextId = 1;
 	}
 
 	/**
@@ -155,8 +155,9 @@ public class Fighter {
 	 */
 	@Override
 	public String toString() {
-		return String.format("(%s %d %s %s {%d,%d,%d})", getType(), getId(), getSide().toString(), getPosition(),
-				getVelocity(), getAttack(), getShield());
+		return new StringBuilder("(").append(getType()).append(' ').append(getId()).append(' ').append(getSide())
+				.append(' ').append(getPosition()).append(" {").append(getVelocity()).append(',').append(getAttack())
+				.append(',').append(getShield()).append("})").toString();
 	}
 
 	/**
@@ -210,6 +211,8 @@ public class Fighter {
 	 */
 	public void addVelocity(int v) {
 		this.velocity += v;
+		if (velocity < 0)
+			velocity = 0;
 	}
 
 	/**
@@ -226,6 +229,8 @@ public class Fighter {
 	 */
 	public void addAttack(int attack) {
 		this.attack += attack;
+		if (this.attack < 0)
+			this.attack = 0;
 	}
 
 	/**

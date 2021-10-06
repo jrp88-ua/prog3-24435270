@@ -3,44 +3,47 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
 /**
- * Class that generates random numbers
- * 
- * @author Javier Rodríguez Pérez - 24435270R
+ * clase para generar nÃºmeros aleatorios
+ * @author paco
  *
  */
 public class RandomNumber {
 
-	private static Random generator = new Random(1L);
-	private static List<Integer> list = new ArrayList<Integer>();
-
 	/**
-	 * Creates a pseudo-random generated number
-	 * 
-	 * @param max The max number, exclusive
-	 * @return A number between 0 and max-1
+	 * generador de nÃºmeros aleatorios
+	 */
+	private static Random generator = new Random(1L);
+	
+	/**
+	 * lista de nÃºmeros generados (para debug)
+	 */
+	private static List<Integer> list = new ArrayList<Integer>();
+	
+	/**
+	 * genera un nÃºmero aleatorio entre 0 y max-1
+	 * @param max indica el mÃ¡ximo valor (no incluido)
+	 * @return nÃºmero aleatorio entre 0 y max-1
 	 */
 	public static int newRandomNumber(int max) {
 		int r = generator.nextInt(max);
 		list.add(r);
 		return r;
 	}
-
+	
 	/**
-	 * Gets all the generated random numbers
-	 * 
-	 * @return A list with all generated numbers
+	 * getter (debug)
+	 * @return lista de nÃºmeros generados
 	 */
 	public static List<Integer> getRandomNumberList() {
 		return list;
 	}
-
+	
 	/**
-	 * Resets the list of random numbers
+	 * reinicializa el generador y la lista, para las pruebas unitarias
 	 */
 	public static void resetRandomCounter() {
-		list.clear();
-		generator = new Random(1L);
-	}
+        list.clear();
+        generator = new Random(1L);
+    } 
 }
