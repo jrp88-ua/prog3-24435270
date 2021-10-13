@@ -211,8 +211,12 @@ public class FighterPreTest {
 		 * cambia los valores de los atributos del fighter y comprueba que en toString
 		 * se reflejan los cambios
 		 */
-
-		fail("completa el test");
+		Fighter.resetNextId();
+		Fighter f = new Fighter("TypeA", imperialShip);
+		f.addVelocity(-99);
+		f.addAttack(-78);
+		f.addShield(-77);
+		assertEquals("(TypeA 1 IMPERIAL null {1,2,3})", f.toString());
 	}
 
 	/*
@@ -263,7 +267,11 @@ public class FighterPreTest {
 		 * cambia algunos valores del caza (velocidad, ataque, escudo) y comprueba que
 		 * afectan a la lucha
 		 */
-		fail("completa el test");
+		Fighter enemy = new Fighter("Type1", rebelShip);
+		Fighter fighter = new Fighter("Type2", imperialShip);
+		
+		fighter.addShield(1000000);
+		assertEquals(1, fighter.fight(enemy));
 	}
 
 	/*

@@ -42,11 +42,10 @@ public class Ship {
 			return v == null ? 1 : v + 1;
 		}));
 		Iterator<Entry<String, Integer>> it = map.entrySet().iterator();
-		int current = 0;
-		Entry<String, Integer> e;
-		while ((e = it.next()) != null) {
+		while (it.hasNext()) {
+			Entry<String, Integer> e = it.next();
 			sb.append(e.getValue()).append('/').append(e.getKey());
-			if (current != map.size() - 1)
+			if (it.hasNext())
 				sb.append(':');
 		}
 		return sb.toString();
@@ -62,8 +61,7 @@ public class Ship {
 			b.append(f);
 			if (f.isDestroyed())
 				b.append(" (X)");
-			if (i != fleet.size() - 1)
-				b.append('\n');
+			b.append('\n');
 		}
 		return b.toString();
 	}
@@ -73,10 +71,11 @@ public class Ship {
 	 */
 	public void purgeFleet() {
 		Iterator<Fighter> it = fleet.iterator();
-		Fighter f;
-		while ((f = it.next()) != null)
+		while (it.hasNext()) {
+			Fighter f = it.next();
 			if (f.isDestroyed())
 				it.remove();
+		}
 	}
 
 	/**

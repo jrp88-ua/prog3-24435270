@@ -127,7 +127,8 @@ public class ShipPreTest {
 	/* Se comprueba que UpdateResults(-1) incrementa wins en 1 */
 	@Test
 	public void testUpdateResults2() {
-		fail("completa el test");
+		ship.updateResults(-1);
+		assertEquals(1, ship.getLosses());
 	}
 	
 	
@@ -193,8 +194,8 @@ public class ShipPreTest {
 		/*
 		 * comprueba que fighter es un XWing y es el que ocupa la posición 21 de la flota
 		 */
-		
-		fail("completa el test como se indica en el comentario");
+		assertEquals("XWing", fighter.getType());
+		assertEquals(21, ship.getFleetTest().indexOf(fighter));
 	}
 	
 	
@@ -234,8 +235,8 @@ public class ShipPreTest {
 		assertEquals (3, numberOfFightersOk("AWing"));
 		// haz las mismas comprobaciones para otros cazas que hayas destruido 
 		//assertEquals (??, numberOfFightersOk("?????"));
-		
-		fail("completa el test");
+		destroy("ZWing", 99);
+		assertEquals(1, numberOfFightersOk("ZWing"));
 	}
 	
 	 
@@ -288,7 +289,10 @@ public class ShipPreTest {
 	 */
 	@Test
 	public void testMyFleet3() {
-		fail("completa el test");
+		Ship ship = new Ship("S1", Side.IMPERIAL);
+		ship.addFighters("1/A:2/B:3/C");
+		ship.getFleetTest().forEach((f) -> f.addShield(-100000));
+		assertEquals("", ship.myFleet());
 	}
 	
 	/* Crea cazas en una nave. Destruye muchos y comprueba que showFleet solo devuelve
@@ -296,7 +300,12 @@ public class ShipPreTest {
 	 */
 	@Test
 	public void testMyFleet4() {
-		fail("completa el test");
+		Ship ship = new Ship("S1", Side.IMPERIAL);
+		ship.addFighters("1/A:2/B:3/C");
+		ship.getFleetTest().get(0).addShield(-100000); // destruye A
+		ship.getFleetTest().get(1).addShield(-100000); // destruye B
+		ship.getFleetTest().get(4).addShield(-100000); // destruye C
+		assertEquals("1/B:2/C", ship.myFleet());	
 	}
 
 	/* Comprueba toString para una nave sin cazas */
@@ -330,7 +339,10 @@ public class ShipPreTest {
 	 */
 	@Test
 	public void testToString4() {
-		fail("completa el test");
+		String fleet = "50/A:60/B:15/C";
+		Ship ship = new Ship("Ship1", Side.REBEL);
+		ship.addFighters(fleet);
+		assertEquals("Ship [Ship1 0/0] " + fleet, ship.toString());
 	}
 
 	/*************************************/
