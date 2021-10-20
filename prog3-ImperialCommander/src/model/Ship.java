@@ -15,13 +15,31 @@ import java.util.Map.Entry;
  */
 public class Ship {
 
+	/**
+	 * List of foghters
+	 */
 	private List<Fighter> fleet = new ArrayList<>();
-
+	/**
+	 * Name of the ship
+	 */
 	private String name;
+	/**
+	 * Side of the ship
+	 */
 	private Side side;
+	/**
+	 * wins of the ship
+	 */
 	private int wins;
+	/**
+	 * losses of the ship
+	 */
 	private int losses;
 
+	/**
+	 * @param name The name of the ship
+	 * @param side The side of the ship
+	 */
 	public Ship(String name, Side side) {
 		this.name = name;
 		this.side = side;

@@ -8,8 +8,17 @@ package model;
  */
 public class Fighter {
 
+	/**
+	 * Default velocity
+	 */
 	static final int DEF_VALOCITY = 100;
+	/**
+	 * Default attack
+	 */
 	static final int DEF_ATTACK = 80;
+	/**
+	 * Default shield
+	 */
 	static final int DEF_SHIELD = 80;
 
 	/**
@@ -140,6 +149,8 @@ public class Fighter {
 		if (this == obj) {
 			return true;
 		}
+		if (obj == null)
+			return false;
 		if (!(obj instanceof Fighter)) {
 			return false;
 		}
