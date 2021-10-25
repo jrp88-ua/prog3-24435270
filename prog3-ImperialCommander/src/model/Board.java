@@ -186,8 +186,7 @@ public class Board {
 
 	/**
 	 * @param c The coordinate
-	 * @return The fighter in the given coordinate, null if no fighter is
-	 *         there
+	 * @return The fighter in the given coordinate, null if no fighter is there
 	 */
 	public Fighter getFighter0(Coordinate c) {
 		Objects.requireNonNull(c);

@@ -149,8 +149,8 @@ public class Ship {
 
 	@Override
 	public String toString() {
-		return new StringBuilder("Ship [").append(getName()).append(' ').append(getWins()).append('/')
-				.append(getLosses()).append("] ").append(myFleet()).toString();
+		return new StringBuilder("Ship [").append(getName()).append(' ').append(getWins()).append('/').append(getLosses())
+				.append("] ").append(myFleet()).toString();
 	}
 
 	/**
