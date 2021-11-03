@@ -5,7 +5,9 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class FighterTest {
+import model.exceptions.FighterIsDestroyedException;
+
+public class FighterTestP2 {
 
 	private final int kInitVelocity = 100;
 	private final int kInitAttack = 80;
@@ -18,18 +20,19 @@ public class FighterTest {
 		rebelShip = new Ship("Tydirium", Side.REBEL);
 		imperialShip = new Ship("Lanzadera T-4a", Side.IMPERIAL);
 		Fighter.resetNextId();
-		fighter = new Fighter("XWing", rebelShip);
+		fighter = FighterFactory.createFighter("XWing", rebelShip);
+		RandomNumber.resetRandomCounter();
 	}
 	
 	/* Test que comprueba el constructor copia. Se cambia valores iniciales de un fighter
 	 * Se crea una copia y se comprueba que los valores de ambos fighters son iguales */
 	@Test
 	public final void testFighterCopyConstructor() {
-		fighter = new Fighter("QWing20", rebelShip);
+		fighter = FighterFactory.createFighter("XWing", rebelShip);
 		fighter.setPosition(new Coordinate(4,6));
 		fighter.addShield(30);
 		fighter.addVelocity(40);
-		Fighter enemy = new Fighter(fighter);
+		Fighter enemy = fighter.copy();
 		assertEquals ("getType",fighter.getType(), enemy.getType());
 		assertEquals ("Initial velocity",fighter.getVelocity(), enemy.getVelocity());
 		assertEquals ("Initial attack", fighter.getAttack(), enemy.getAttack());
@@ -44,8 +47,8 @@ public class FighterTest {
 	@Test
 	public final void testFighterAndGetters() {	
 		assertEquals ("getType","XWing", fighter.getType());
-		assertEquals ("Initial velocity",kInitVelocity, fighter.getVelocity());
-		assertEquals ("Initial attack", kInitAttack, fighter.getAttack());
+		assertEquals ("Initial velocity",kInitVelocity+10, fighter.getVelocity());
+		assertEquals ("Initial attack", kInitAttack+20, fighter.getAttack());
 		assertEquals ("Initial shield",kInitShield, fighter.getShield());
 		assertSame (rebelShip,fighter.getMotherShip());
 		assertNull (fighter.getPosition());
@@ -59,10 +62,10 @@ public class FighterTest {
 	@Test
 	public final void testResetNextId() {
 		assertEquals ("Initial id = 1",1,fighter.getId());
-		Fighter other = new Fighter("YWing", rebelShip);
+		Fighter other = FighterFactory.createFighter("YWing", rebelShip);
 		assertEquals ("Next id = 2",2,other.getId());
 		Fighter.resetNextId();
-		Fighter another = new Fighter("AWing", rebelShip);
+		Fighter another = FighterFactory.createFighter("AWing", rebelShip);
 		assertEquals ("(after reset) id = 1",1,another.getId());
 	}
 
@@ -73,7 +76,7 @@ public class FighterTest {
 	public final void testGetId() {
 		Fighter.resetNextId();
 		for (int i=1; i<10; i++) {
-			fighter = new Fighter("XWing",rebelShip);
+			fighter = FighterFactory.createFighter("XWing",rebelShip);
 			assertEquals (i, fighter.getId());
 		}
 	}
@@ -84,7 +87,7 @@ public class FighterTest {
 	@Test 
 	public final void testAddVelocity() {
 		fighter.addVelocity(150);
-		assertEquals (250, fighter.getVelocity());
+		assertEquals (260, fighter.getVelocity());
 		fighter.addVelocity(-1000);
 		assertEquals (0, fighter.getVelocity());
 	}
@@ -93,7 +96,7 @@ public class FighterTest {
 	@Test
 	public final void testAddAttack() {
 		fighter.addAttack(100);
-		assertEquals (180, fighter.getAttack());
+		assertEquals (200, fighter.getAttack());
 		fighter.addAttack(-200);
 		assertEquals (0, fighter.getAttack());
 	}
@@ -163,9 +166,9 @@ public class FighterTest {
 	 */
 	@Test
 	public final void testGetDamageInitialAttack() {
-		Fighter enemy = new Fighter("TIEFighter",imperialShip);
-		assertEquals (13, fighter.getDamage(50, enemy));
-		assertEquals (6, enemy.getDamage(25, fighter));
+		Fighter enemy = FighterFactory.createFighter("TIEFighter",imperialShip);
+		assertEquals (16, fighter.getDamage(50, enemy));
+		assertEquals (7, enemy.getDamage(25, fighter));
 		
 	}
 
@@ -175,11 +178,11 @@ public class FighterTest {
 	 */
 	@Test
 	public final void testGetDamage1() {
-		Fighter enemy = new Fighter("TIEFighter",imperialShip);
+		Fighter enemy = FighterFactory.createFighter("TIEFighter",imperialShip);
 		enemy.addAttack(-40);
 		fighter.addAttack(75);
 		assertEquals (5, fighter.getDamage(10, enemy));
-		assertEquals (266, enemy.getDamage(2000, fighter));
+		assertEquals (300, enemy.getDamage(2000, fighter));
 	}
 	
 	/* Test 2 que comprueba getDamage tras varios ataques
@@ -187,10 +190,10 @@ public class FighterTest {
 	 */
 	@Test
 	public final void testGetDamage2() {
-		Fighter enemy = new Fighter("TIEFighter", imperialShip);
+		Fighter enemy = FighterFactory.createFighter("TIEFighter", imperialShip);
 		enemy.addAttack(-100);
 		fighter.addAttack(124);
-		assertEquals (-204, fighter.getDamage(-300, enemy));
+		assertEquals (-224, fighter.getDamage(-300, enemy));
 		assertEquals (0, enemy.getDamage(-1, fighter));
 	}
 	
@@ -199,11 +202,11 @@ public class FighterTest {
 	 */
 	@Test
 	public final void testGetDamage3() {
-		Fighter enemy = new Fighter("TIEFighter", imperialShip);
+		Fighter enemy = FighterFactory.createFighter("TIEFighter", imperialShip);
 		enemy.addAttack(-79);
 		fighter.addAttack(-81);
 		assertEquals (0, fighter.getDamage(10, enemy));
-		assertEquals (6, enemy.getDamage(2000, fighter));
+		assertEquals (40, enemy.getDamage(2000, fighter));
 	}
 	
 	/* Test toString para un fighter recien creado
@@ -211,7 +214,7 @@ public class FighterTest {
 	 */
 	@Test
 	public final void testToString1() {
-		final String sout = "(XWing 1 REBEL null {100,80,80})";
+		final String sout = "(XWing 1 REBEL null {110,100,80})";
 		assertEquals(sout, fighter.toString());
 	}
 
@@ -220,8 +223,8 @@ public class FighterTest {
 	 */
 	@Test
 	public final void testToString2() {
-		final String sout = "(TIEFighter 2 IMPERIAL [20,3] {70,115,0})";
-		Fighter enemy = new Fighter("TIEFighter", imperialShip);
+		final String sout = "(TIEFighter 2 IMPERIAL [20,3] {80,120,-10})";
+		Fighter enemy = FighterFactory.createFighter("TIEFighter", imperialShip);
 		enemy.setPosition(new Coordinate(20,3));
 		enemy.addVelocity(-30);
 		enemy.addAttack(35);
@@ -233,9 +236,9 @@ public class FighterTest {
 	/* Test para Fight en que lucha un caza contra un enemigo
 	 * ya destruído")
 	 */
-	@Test
-	public final void testFight1() {
-		Fighter enemy = new Fighter("TIEFighter", imperialShip);
+	@Test(expected=FighterIsDestroyedException.class)
+	public final void testFight1() throws FighterIsDestroyedException {
+		Fighter enemy = FighterFactory.createFighter("TIEFighter", imperialShip);
 		enemy.addShield(-150);
 		assertEquals(0,fighter.fight(enemy));
 		assertEquals(0,RandomNumber.getRandomNumberList().size());
@@ -245,9 +248,9 @@ public class FighterTest {
 	 * enemigo.
 	 * 
 	 */
-	@Test
-	public final void testFight2() {
-		Fighter enemy = new Fighter("TIEFighter", imperialShip);
+	@Test(expected=FighterIsDestroyedException.class)
+	public final void testFight2() throws FighterIsDestroyedException {
+		Fighter enemy = FighterFactory.createFighter("TIEFighter", imperialShip);
 		fighter.addShield(-150);
 		assertEquals(0,fighter.fight(enemy));
 		assertEquals(0,RandomNumber.getRandomNumberList().size());
@@ -258,56 +261,56 @@ public class FighterTest {
 	 * 
 	 */
 	@Test
-	public final void testFight3() {
-		Fighter enemy = new Fighter("TIEFighter", imperialShip);
-		assertEquals(-1,fighter.fight(enemy));
-		assertEquals("[85, 88, 47, 13, 54, 4, 34, 6]",RandomNumber.getRandomNumberList().toString());
+	public final void testFight3() throws FighterIsDestroyedException {
+		Fighter enemy = FighterFactory.createFighter("TIEFighter", imperialShip);
+		assertEquals(1,fighter.fight(enemy));
+		assertEquals("[85, 88, 47, 13, 54]",RandomNumber.getRandomNumberList().toString());
 	}
 
 	/* Test que comprueba Fight en la lucha entre un caza y un enemigo que tienen 
 	 * distintos valores.
 	 */
 	@Test
-	public final void testFight4() {
-		Fighter enemy = new Fighter("TIEFighter", imperialShip);
+	public final void testFight4() throws FighterIsDestroyedException {
+		Fighter enemy = FighterFactory.createFighter("TIEFighter", imperialShip);
 		fighter.addVelocity(20);
 		fighter.addAttack(150);
 		fighter.addShield(1000);
 		assertEquals(1,fighter.fight(enemy));
-		assertEquals("[85, 88, 47, 13, 54, 4, 34, 6, 78, 48, 69]",RandomNumber.getRandomNumberList().toString());
+		assertEquals("[85]",RandomNumber.getRandomNumberList().toString());
 	}
 	
 	/* Test que comprueba fight en una pelea duradera 
 	 * 
 	 */
 	@Test
-	public final void testFight5() {
-		//fighter.setSide(Side.REBEL);
+	public final void testFight5() throws FighterIsDestroyedException {
+
 		fighter.addVelocity(20000);
 		fighter.addAttack(150);
 		fighter.addShield(10000000);
-		Fighter enemy = new Fighter("TIEFighter",imperialShip);
+		Fighter enemy = FighterFactory.createFighter("TIEFighter",imperialShip);
 		enemy.addVelocity(90000);
 		enemy.addAttack(450);
 		enemy.addShield(89000000);
 		assertEquals(-1,fighter.fight(enemy));
-		assertEquals(344060,RandomNumber.getRandomNumberList().size());
+		assertEquals(340901,RandomNumber.getRandomNumberList().size());
 	}
 
 	/* Test que comprueba fight en una pelea duradera 
 	 * 
 	 */
 	@Test
-	public final void testFight6() {
+	public final void testFight6() throws FighterIsDestroyedException {
 		fighter.addVelocity(20000);
 		fighter.addAttack(0);
 		fighter.addShield(10000000);
-		Fighter enemy = new Fighter("TIEFighter", imperialShip);
+		Fighter enemy = FighterFactory.createFighter("TIEFighter", imperialShip);
 		enemy.addVelocity(90000);
 		enemy.addAttack(0);
 		enemy.addShield(89000000);
 		assertEquals(1,enemy.fight(fighter));
-		assertEquals(2584150,RandomNumber.getRandomNumberList().size());
+		assertEquals(2107969,RandomNumber.getRandomNumberList().size());
 	}
 
 	
@@ -317,13 +320,13 @@ public class FighterTest {
 	@SuppressWarnings("unlikely-arg-type")
 	@Test
 	public final void testEqualsObject() {
-		Fighter enemy = new Fighter("XWing", imperialShip);
+		Fighter enemy = FighterFactory.createFighter("XWing", imperialShip);
 		String s = "XWing";
 		assertTrue(fighter.equals(fighter));
 		assertFalse(enemy.equals(fighter));
 		assertFalse(fighter.equals(null));
 		assertFalse(fighter.equals(s));
-		enemy = new Fighter(fighter);
+		enemy = fighter.copy();
 		assertTrue(fighter.equals(enemy));
 	}
 	
@@ -332,7 +335,7 @@ public class FighterTest {
 	 */
 	@Test
 	public final void testHashCode() {
-		Fighter enemy = new Fighter("XWing", imperialShip);
+		Fighter enemy = FighterFactory.createFighter("XWing", imperialShip);
 		assertNotEquals(enemy.hashCode(),fighter.hashCode());
 	}
 

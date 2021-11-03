@@ -1,12 +1,14 @@
 package model;
 
+import model.exceptions.FighterIsDestroyedException;
+
 /**
  * Class that represents a fighter
  * 
  * @author Javier Rodriguez Perez - 24435270R
  *
  */
-public class Fighter {
+public abstract class Fighter {
 
 	/**
 	 * Default velocity
@@ -26,10 +28,6 @@ public class Fighter {
 	 */
 	private static int nextId = 1;
 
-	/**
-	 * type of fighter
-	 */
-	private String type;
 	/**
 	 * velocity
 	 */
@@ -61,8 +59,7 @@ public class Fighter {
 	 * @param type   The fighter type
 	 * @param mother The fighter mother ship
 	 */
-	Fighter(String type, Ship mother) {
-		this.type = type;
+	protected Fighter(Ship mother) {
 		this.motherShip = mother;
 		this.velocity = DEF_VALOCITY;
 		this.attack = DEF_ATTACK;
@@ -76,8 +73,7 @@ public class Fighter {
 	 * 
 	 * @param f The fighter to copy
 	 */
-	public Fighter(Fighter f) {
-		this.type = f.type;
+	protected Fighter(Fighter f) {
 		this.velocity = f.velocity;
 		this.attack = f.attack;
 		this.shield = f.shield;
@@ -94,6 +90,16 @@ public class Fighter {
 	}
 
 	/**
+	 * @return A copy of this fighter
+	 */
+	public abstract Fighter copy();
+
+	/**
+	 * @return A char that represents this fighter
+	 */
+	public abstract char getSymbol();
+
+	/**
 	 * Computes the damage to deal to the given enemy
 	 * 
 	 * @param n     A random number
@@ -108,12 +114,14 @@ public class Fighter {
 	 * Fights to the death the given enemy
 	 * 
 	 * @param enemy The enemy
-	 * @return 0 if both fighters are destroyed, 1 if this fighter wins, -1 if the
-	 *         enemy wins
+	 * @return 1 if this fighter wins, -1 if the enemy wins
+	 * @throws FighterIsDestroyedException if this fighter or the enemy is destroyed
 	 */
-	public int fight(Fighter enemy) {
-		if (isDestroyed() || enemy.isDestroyed())
-			return 0;
+	public int fight(Fighter enemy) throws FighterIsDestroyedException {
+		if (isDestroyed())
+			throw new FighterIsDestroyedException(this);
+		if (enemy.isDestroyed())
+			throw new FighterIsDestroyedException(enemy);
 		int umbral = (100 * getVelocity()) / (getVelocity() + enemy.getVelocity());
 		do {
 			int n = RandomNumber.newRandomNumber(100);
@@ -154,6 +162,8 @@ public class Fighter {
 		if (!(obj instanceof Fighter)) {
 			return false;
 		}
+		if(getClass() != obj.getClass())
+			return false;
 		Fighter other = (Fighter) obj;
 		if (id != other.id) {
 			return false;
@@ -205,7 +215,7 @@ public class Fighter {
 	 * @return the type
 	 */
 	public String getType() {
-		return type;
+		return getClass().getSimpleName();
 	}
 
 	/**

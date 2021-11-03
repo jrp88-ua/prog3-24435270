@@ -1,18 +1,24 @@
 package model;
 
 import static org.junit.Assert.assertEquals;
+import model.fighters.*;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNotSame;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 import java.util.Set;
 
 import org.junit.Before;
 import org.junit.Test;
 
-public class BoardTest {
+import model.exceptions.FighterAlreadyInBoardException;
+import model.exceptions.FighterNotInBoardException;
+import model.exceptions.OutOfBoundsException;
+
+public class BoardTestP2 {
 
 	Board board;
 	Ship rebelShip, imperialShip;
@@ -68,34 +74,34 @@ public class BoardTest {
 	/* Test que comprueba que removeFighter devuelve false en una posición
 	 * donde no hay Fighter.
 	 */
-	@Test
-	public void testRemoveFighter1() {
+	@Test(expected=FighterNotInBoardException.class)
+	public void testRemoveFighter1() throws FighterNotInBoardException {
 		rebelShip.addFighters("1/XWing");
 		Fighter fighter = rebelShip.getFleetTest().get(0);
 		fighter.setPosition(new Coordinate(2,4));
-		assertFalse (board.removeFighter(fighter));		
+		board.removeFighter(fighter);	// debe lanzar la excepción
 	}
 
 	/* Test que comprueba que removeFighter devuelve false en un Fighter no
 	 * posicionado.
 	 */
-	@Test
-	public void testRemoveFighter2() {
+	@Test(expected=FighterNotInBoardException.class)
+	public void testRemoveFighter2() throws FighterNotInBoardException {
 		rebelShip.addFighters("1/XWing");
 		Fighter fighter = rebelShip.getFleetTest().get(0);
-		assertFalse (board.removeFighter(fighter));		
+		board.removeFighter(fighter);	// debe lanzar la excepción
 	}
 
 	/* Test que comprueba que removeFighter devuelve false en un Fighter 
 	 * posicionado en otra coordenada distinta.
 	 */
-	@Test
-	public void testRemoveFighter3() {
+	@Test(expected=FighterNotInBoardException.class)
+	public void testRemoveFighter3() throws FighterAlreadyInBoardException, OutOfBoundsException, FighterNotInBoardException {
 		rebelShip.addFighters("1/XWing");
 		Fighter fighter = rebelShip.getFleetTest().get(0);
 		board.launch(new Coordinate(6,7), fighter);
 		fighter.setPosition(new Coordinate(6,8));
-		assertFalse (board.removeFighter(fighter));		
+		board.removeFighter(fighter);	// debe lanzar la excepción
 	}
 	
 	/* Test que comprueba que removeFighter elimina los cazas ubicados en un Board
@@ -108,7 +114,11 @@ public class BoardTest {
 		for (int i=0; i<board.getSize(); i++) {
 			c = new Coordinate(i,i);
 			Fighter fighter = board.getFighter(c);
-			assertTrue (board.removeFighter(fighter));	
+			try {
+				board.removeFighter(fighter);
+			} catch (FighterNotInBoardException e) {
+				fail("No debió lanzar la excepción "+e.getClass().getSimpleName()+ "en la coordenada "+c);
+			}	
 			assertNull (board.getFighter(new Coordinate(i,i)));
 		}
 	}
@@ -122,10 +132,13 @@ public class BoardTest {
 		addFightersOnBoard();
 		Ship auxShip = new Ship("Tydirium", Side.REBEL);
 		for (int i=0; i<board.getSize(); i++) {
-			auxShip.addFighters("1/XWing"+i);
+			auxShip.addFighters("1/XWing");
 			Fighter fighter = auxShip.getFleetTest().get(i);
 			fighter.setPosition(new Coordinate(i,i));
-			assertFalse (board.removeFighter(fighter));	
+			try {
+				board.removeFighter(fighter);
+				fail("Error: Debió lanzar la excepción FighterNotInBoardException en la coordenada "+new Coordinate(i,i));
+			} catch (FighterNotInBoardException e) { }	
 			assertNotNull (board.getFighter(new Coordinate(i,i)));
 		}
 	}
@@ -161,7 +174,7 @@ public class BoardTest {
 
 	/* Test getNeighborhood para la esquina superior izquierdo de un tablero */
 	@Test
-	public void testGetNeighborhood1() {
+	public void testGetNeighborhood1() throws OutOfBoundsException {
 		
 		Set<Coordinate> set = board.getNeighborhood(new Coordinate(0,0));
 		assertEquals(3, set.size());
@@ -172,7 +185,7 @@ public class BoardTest {
 	
 	/* Test getNeighborhood para la esquina inferior derecho de un tablero 10x10*/
 	@Test
-	public void testGetNeighborhood2() {
+	public void testGetNeighborhood2() throws OutOfBoundsException {
 		
 		Set<Coordinate> set = board.getNeighborhood(new Coordinate(9,9));
 		assertEquals(3, set.size());
@@ -185,28 +198,43 @@ public class BoardTest {
 	@Test
 	public void testGetNeighborhood3() {
 		//Esquina superior derecha
-		Set<Coordinate> set = board.getNeighborhood(new Coordinate(-1,-1));
-		assertEquals(1, set.size());
-		assertTrue(set.contains(new Coordinate(0, 0)));
+		Set<Coordinate> set;
+		try {
+			set = board.getNeighborhood(new Coordinate(-1,-1));
+			fail("Error: Debió lanzar la excepción OutOfBoundsException");
+		} catch (OutOfBoundsException e) { }
+		//assertEquals(1, set.size());
+		//assertTrue(set.contains(new Coordinate(0, 0)));
 		//Esquina superior izquierda
-		set = board.getNeighborhood(new Coordinate(10,-1));
-		assertEquals(1, set.size());
-		assertTrue(set.contains(new Coordinate(9, 0)));
+		
+		try {
+			set = board.getNeighborhood(new Coordinate(10,-1));
+			fail("Error: Debió lanzar la excepción OutOfBoundsException");
+		} catch (OutOfBoundsException e) {	}
+		/*assertEquals(1, set.size());
+		assertTrue(set.contains(new Coordinate(9, 0)));*/
 		//Esquina inferior izquierda
-		set = board.getNeighborhood(new Coordinate(-1,10));
-		assertEquals(1, set.size());
-		assertTrue(set.contains(new Coordinate(0, 9)));
+		try {
+			set = board.getNeighborhood(new Coordinate(-1,10));
+			fail("Error: Debió lanzar la excepción OutOfBoundsException");
+		} catch (OutOfBoundsException e) {	}
+		/*assertEquals(1, set.size());
+		assertTrue(set.contains(new Coordinate(0, 9)));*/
 		//Esquina inferior derecha
-		set = board.getNeighborhood(new Coordinate(10,10));
-		assertEquals(1, set.size());
-		assertTrue(set.contains(new Coordinate(9, 9)));
+		try {
+			set = board.getNeighborhood(new Coordinate(10,10));
+			fail("Error: Debió lanzar la excepción OutOfBoundsException");
+		} catch (OutOfBoundsException e) {	}
+		/*assertEquals(1, set.size());
+		assertTrue(set.contains(new Coordinate(9, 9)));*/
 	}
 	
 	/* Test getNeighborhood para una coordenada central al tablero*/
 	@Test
-	public void testGetNeighborhood4() {		
+	public void testGetNeighborhood4() throws OutOfBoundsException {		
 	
-		Set<Coordinate> set = board.getNeighborhood(new Coordinate(5,5));
+		Set<Coordinate> set;
+		set = board.getNeighborhood(new Coordinate(5,5));
 		
 		assertEquals(8, set.size());
 		assertTrue(set.contains(new Coordinate(4, 4)));
@@ -222,8 +250,8 @@ public class BoardTest {
 	/* Test getNeighborhood para una coordenada fuera del tablero sin vecinos
 	 * dentro del tablero
 	 */
-	@Test
-	public void testGetNeighborhood5() {		
+	@Test(expected=OutOfBoundsException.class)
+	public void testGetNeighborhood5() throws OutOfBoundsException {		
 	
 		Set<Coordinate> set = board.getNeighborhood(new Coordinate(11,11));
 		
@@ -231,8 +259,8 @@ public class BoardTest {
 	}
 	
 	/* Test launch para una coordenada fuera del tablero */
-	@Test
-	public void testLaunch1() {
+	@Test(expected=OutOfBoundsException.class)
+	public void testLaunch1() throws FighterAlreadyInBoardException, OutOfBoundsException {
 		rebelShip.addFighters("1/XWing");
 		Fighter fighter = rebelShip.getFleetTest().get(0);
 		assertEquals(0,board.launch(new Coordinate(-1,0), fighter));
@@ -241,7 +269,7 @@ public class BoardTest {
 	/* Test launch para una coordenada dentro del tablero. Comprobamos que se ha puesto
 	 * y que se ha actualizado la posición del caza */
 	@Test
-	public void testLaunch2() {
+	public void testLaunch2() throws FighterAlreadyInBoardException, OutOfBoundsException {
 		rebelShip.addFighters("1/XWing");
 		Fighter f = rebelShip.getFleetTest().get(0);
 		Coordinate c = new Coordinate(9,9);
@@ -253,13 +281,13 @@ public class BoardTest {
 	/* Test launch para una coordenada dentro del tablero donde ya hay otro caza del
 	 * mismo bando */
 	@Test
-	public void testLaunch3() {	
+	public void testLaunch3() throws FighterAlreadyInBoardException, OutOfBoundsException {	
 		rebelShip.addFighters("1/XWing");
 		Fighter f = rebelShip.getFleetTest().get(0);
 		
 		Coordinate c = new Coordinate(2,2);
 		assertEquals(0,board.launch(c,f));
-		rebelShip.addFighters("1/ZWing");
+		rebelShip.addFighters("1/YWing");
 		assertEquals(0,board.launch(c, rebelShip.getFleetTest().get(1)));
 		assertEquals(f, board.getFighter(c));
 	}
@@ -270,13 +298,13 @@ public class BoardTest {
 	 * bando contrario y gana el que quiere acceder a la coordenada.
 	 */
 	@Test
-	public void testLaunch4() {
+	public void testLaunch4() throws FighterAlreadyInBoardException, OutOfBoundsException {
 		Coordinate c = new Coordinate(2,7);
 		rebelShip.addFighters("1/XWing");
-		imperialShip.addFighters("1/ZXWing");
+		imperialShip.addFighters("1/TIEFighter");
 		Fighter frebel = rebelShip.getFleetTest().get(0);
 		Fighter fimperial = imperialShip.getFleetTest().get(0);
-
+        
 		frebel.addShield(1000);
 		assertEquals(0,board.launch(c,fimperial));
 		assertEquals(1,board.launch(c,frebel)); //Gana frebel.
@@ -290,14 +318,14 @@ public class BoardTest {
 	 * las flotas.
 	 */
 	@Test
-	public void testLaunch5() {
+	public void testLaunch5() throws FighterAlreadyInBoardException, OutOfBoundsException {
 		Coordinate c = new Coordinate(2,7);
 		
 		rebelShip.addFighters("1/XWing");
-		imperialShip.addFighters("1/ZWing");	
+		imperialShip.addFighters("1/TIEFighter");	
 		Fighter rebel = rebelShip.getFleetTest().get(0);
 		Fighter imperial = imperialShip.getFleetTest().get(0);
-		
+		imperial.addShield(1000);
 		board.launch(c,imperial);
 		assertEquals(-1,board.launch(c,rebel)); //Gana fimperial (que ya estaba en la coordenada)
 		
@@ -314,7 +342,7 @@ public class BoardTest {
 	 * No ocurre nada.
 	 */
 	@Test
-	public void testPatrol1() {
+	public void testPatrol1() throws FighterAlreadyInBoardException, OutOfBoundsException, FighterNotInBoardException {
 		rebelShip.addFighters("1/XWing");
 		Fighter rebel = rebelShip.getFleetTest().get(0);
 		Coordinate c = new Coordinate(4,5);
@@ -327,9 +355,9 @@ public class BoardTest {
 	 * de su bando. No ocurre nada.
 	 */
 	@Test
-	public void testPatrol2() {
+	public void testPatrol2() throws FighterAlreadyInBoardException, OutOfBoundsException, FighterNotInBoardException {
 		addFightersOnBoard();
-		rebelShip.addFighters("1/ZWing");
+		rebelShip.addFighters("1/YWing");
 		Fighter rebel = rebelShip.getFleetTest().get(10);
 		
 		Coordinate c = new Coordinate(4,5);
@@ -345,10 +373,10 @@ public class BoardTest {
 	 * del bando contrario. Los vence a todos.
 	 */
 	@Test
-	public void testPatrol3() {
+	public void testPatrol3() throws FighterAlreadyInBoardException, OutOfBoundsException, FighterNotInBoardException {
 		Coordinate c = new Coordinate(4,5);
 		addFightersNeighborhoodOnBoard(c);
-		rebelShip.addFighters("1/ZWing");
+		rebelShip.addFighters("1/YWing");
 		Fighter rebel = rebelShip.getFleetTest().get(0);
 		rebel.addAttack(100000);
 		rebel.addShield(900000000);
@@ -365,10 +393,10 @@ public class BoardTest {
 	 * los ships y el shield del fighter vencedor y de los derrotados.
 	 */
 	@Test
-	public void testPatrol4() {
+	public void testPatrol4() throws FighterAlreadyInBoardException, OutOfBoundsException, FighterNotInBoardException {
 		Coordinate c = new Coordinate(4,5);
 		addFightersNeighborhoodOnBoard(c);
-		rebelShip.addFighters("1/ZWing");
+		rebelShip.addFighters("1/XWing");
 		Fighter rebel = rebelShip.getFleetTest().get(0);
 		rebel.addAttack(100000);
 		rebel.addShield(900);
@@ -378,9 +406,9 @@ public class BoardTest {
 		assertEquals(8, rebelShip.getWins());
 		assertEquals(8, imperialShip.getLosses());
 		assertEquals(0, imperialShip.getWins());
-		assertEquals (841, rebel.getShield());
+		assertEquals (833, rebel.getShield());
 		
-		int shields[]= {-28276,-29276,-17934,-25940,-22938,-24272,-20936,-20603};
+		int shields[]= {-28291,-29292,-17948,-25956,-22953,-24287,-20951,-20617};
 		Fighter f;
 		for (int i=0; i<imperialShip.getFleetTest().size(); i++) {
 			 f = imperialShip.getFleetTest().get(i); 
@@ -394,12 +422,12 @@ public class BoardTest {
 	 * con cazas y que el caza patrulla ya no está en su posición.
 	 */
 	@Test
-	public void testPatrol5() {
+	public void testPatrol5() throws FighterAlreadyInBoardException, OutOfBoundsException, FighterNotInBoardException {
 		Coordinate c = new Coordinate(4,5);
 		addFightersNeighborhoodOnBoard(c);
-		rebelShip.addFighters("1/ZWing");
+		rebelShip.addFighters("1/XWing");
 		Fighter rebel = rebelShip.getFleetTest().get(0);
-		rebel.addShield(300);
+		rebel.addShield(180);
 		board.launch(c,rebel); 
 		board.patrol(rebel); 
 		int i=0;
@@ -407,7 +435,7 @@ public class BoardTest {
 			if (i<5)
 			   assertNull(board.getFighter(coord));
 			else
-			   assertNotNull(board.getFighter(coord));
+			   assertNotNull("i="+i,board.getFighter(coord));
 			i++;
 		}
 		assertNull(board.getFighter(c));
@@ -420,22 +448,22 @@ public class BoardTest {
 	 * derrotados.
 	 */
 	@Test
-	public void testPatrol6() {
+	public void testPatrol6() throws FighterAlreadyInBoardException, OutOfBoundsException, FighterNotInBoardException {
 		Coordinate c = new Coordinate(4,5);
 		addFightersNeighborhoodOnBoard(c);
-		rebelShip.addFighters("1/ZWing");
+		rebelShip.addFighters("1/XWing");
 		Fighter rebel = rebelShip.getFleetTest().get(0);
 		rebel.addShield(300);
 		board.launch(c,rebel); 
 		board.patrol(rebel); 
 		
 		assertEquals(1, rebelShip.getLosses());
-		assertEquals(5, rebelShip.getWins());
-		assertEquals(5, imperialShip.getLosses());
+		assertEquals(7, rebelShip.getWins());
+		assertEquals(7, imperialShip.getLosses());
 		assertEquals(1, imperialShip.getWins());
-		assertEquals (-12, rebel.getShield());
+		assertEquals (-17, rebel.getShield());
 		
-		int shields[]= {-17,-11,-14,-8,-9};
+		int shields[]= {-5,-3,-1,-11,-12};
 		Fighter imperial;
 		for (int i=0; i<shields.length; i++) {
 			 imperial = imperialShip.getFleetTest().get(i); 
@@ -445,20 +473,30 @@ public class BoardTest {
 	
 	
 	//METODOS DE APOYO
-	void addFightersOnBoard() {
+	void addFightersOnBoard()  {
 		for (int i=0; i<board.getSize(); i++) {
-			rebelShip.addFighters("1/XWing"+i);
-			board.launch (new Coordinate(i,i), rebelShip.getFleetTest().get(i));
+			rebelShip.addFighters("1/XWing");
+			try {
+				board.launch (new Coordinate(i,i), rebelShip.getFleetTest().get(i));
+			} catch (FighterAlreadyInBoardException | OutOfBoundsException e) {
+				fail("No debió lanzar la excepción "+e.getClass().getSimpleName()+ "en la coordenada "+new Coordinate(i,i));
+			}
 		}
 	}
 	
-	void addFightersNeighborhoodOnBoard(Coordinate c) {
+	void addFightersNeighborhoodOnBoard(Coordinate c)  {
 		Set<Coordinate> list = c.getNeighborhood();
 		int i=0;
 		for (Coordinate coord: list) {
-			imperialShip.addFighters("1/XWing"+i);
-			board.launch (coord, imperialShip.getFleetTest().get(i));
+			imperialShip.addFighters("1/TIEFighter");
+			try {
+				board.launch (coord, imperialShip.getFleetTest().get(i));
+			} catch (FighterAlreadyInBoardException | OutOfBoundsException e) {
+				fail("No debió lanzar la excepción "+e.getClass().getSimpleName()+ "en la coordenada "+coord);
+			}
 			i++;
 		}
 	}
+	
+	
 }

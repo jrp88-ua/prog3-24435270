@@ -6,6 +6,9 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Objects;
+
+import model.exceptions.NoFighterAvailableException;
 
 /**
  * Class that represents a ship
@@ -102,17 +105,14 @@ public class Ship {
 	 * 
 	 * @param type The type to search, empty or null to search for all types
 	 * @return The first fighter that matches the criteria
+	 * @throws NoFighterAvailableException If no fighter is found
 	 */
-	public Fighter getFirstAvailableFighter(String type) {
-		if (type == null || type.isEmpty()) {
-			for (Fighter fighter : fleet)
-				if (!fighter.isDestroyed())
-					return fighter;
-		}
+	public Fighter getFirstAvailableFighter(String type) throws NoFighterAvailableException {
+		Objects.requireNonNull(type);
 		for (Fighter f : fleet)
-			if (!f.isDestroyed() && f.getType().equals(type))
+			if (!f.isDestroyed() && (type.isEmpty() || f.getType().equals(type)))
 				return f;
-		return null;
+		throw new NoFighterAvailableException(type);
 	}
 
 	/**
@@ -128,7 +128,7 @@ public class Ship {
 			String[] sp = f.split("/");
 			int amm = Integer.parseInt(sp[0]);
 			for (int i = 0; i < amm; i++) {
-				Fighter fighter = new Fighter(sp[1], this);
+				Fighter fighter = FighterFactory.createFighter(sp[1], this);
 				fleet.add(fighter);
 			}
 		}
@@ -167,7 +167,7 @@ public class Ship {
 	 */
 	public List<Fighter> getFleet() {
 		List<Fighter> l = new ArrayList<>(this.fleet.size());
-		this.fleet.forEach((f) -> l.add(new Fighter(f)));
+		this.fleet.forEach((f) -> l.add(f.copy()));
 		return fleet;
 	}
 

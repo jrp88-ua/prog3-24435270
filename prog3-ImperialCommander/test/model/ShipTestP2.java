@@ -7,41 +7,43 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-public class ShipTest {
+import model.exceptions.NoFighterAvailableException;
+
+public class ShipTestP2 {
 
 	Ship ship;
 	final String kFleet1 = "5/XWing:12/AWing:3/YWing:2/XWing";
-	final String kFleet2 = "40/XWing:10/AWing:30/YWing:25/XWing:35/TIEFighter:55/TIEBomber:45/TIEShuttle:100/ZWing";
+	final String kFleet2 = "40/XWing:10/AWing:30/YWing:25/XWing:35/TIEFighter:55/TIEBomber:45/TIEInterceptor:100/AWing";
 	final String kFleet3 = "40/XWing:10/AWing:30/YWing:25/AWing:35/XWing:55/TIEBomber:45/TIEBomber:100/AWing"+
 			               ":23/XWing:10/YWing:30/TIEBomber:25/AWing:15/XWing:27/TIEBomber:45/AWing:10/AWing";
 
-	final String kFleet21 = "45/XWing:3/AWing:30/YWing:1/TIEBomber:10/TIEShuttle";
-	final String kFleet22 = "65/XWing:10/AWing:30/YWing:35/TIEFighter:55/TIEBomber:45/TIEShuttle:100/ZWing";
+	final String kFleet21 = "45/XWing:103/AWing:30/YWing:1/TIEBomber:45/TIEInterceptor";
+	final String kFleet22 = "65/XWing:110/AWing:30/YWing:35/TIEFighter:55/TIEBomber:45/TIEInterceptor";
 	final String kToString1 = "Ship [Tydirium 0/0] 7/XWing:12/AWing:3/YWing";
-	final String kToString2 = "Ship [Tydirium 30/45] 65/XWing:10/AWing:30/YWing:35/TIEFighter:55/TIEBomber:45/TIEShuttle:100/ZWing";
+	final String kToString2 = "Ship [Tydirium 30/45] 65/XWing:110/AWing:30/YWing:35/TIEFighter:55/TIEBomber:45/TIEInterceptor";
 	final String kToString3 = "Ship [Tydirium 0/0] 113/XWing:215/AWing:40/YWing:157/TIEBomber";
-	final String kShow = "(XWing 1 REBEL null {100,80,-120}) (X)\n" + 
-			"(XWing 2 REBEL null {100,80,80})\n" + 
-			"(XWing 3 REBEL null {100,80,80})\n" + 
-			"(XWing 4 REBEL null {100,80,80})\n" + 
-			"(XWing 5 REBEL null {100,80,-120}) (X)\n" + 
-			"(AWing 6 REBEL null {100,80,80})\n" + 
-			"(AWing 7 REBEL null {100,80,80})\n" + 
-			"(AWing 8 REBEL null {100,80,80})\n" + 
-			"(AWing 9 REBEL null {100,80,-120}) (X)\n" + 
-			"(AWing 10 REBEL null {100,80,80})\n" + 
-			"(AWing 11 REBEL null {100,80,-120}) (X)\n" + 
-			"(AWing 12 REBEL null {100,80,80})\n" + 
-			"(AWing 13 REBEL null {100,80,80})\n" + 
-			"(AWing 14 REBEL null {100,80,80})\n" + 
-			"(AWing 15 REBEL null {100,80,80})\n" + 
-			"(AWing 16 REBEL null {100,80,80})\n" + 
-			"(AWing 17 REBEL null {100,80,80})\n" + 
-			"(YWing 18 REBEL null {100,80,80})\n" + 
-			"(YWing 19 REBEL null {100,80,-120}) (X)\n" + 
-			"(YWing 20 REBEL null {100,80,80})\n" + 
-			"(XWing 21 REBEL null {100,80,-120}) (X)\n" + 
-			"(XWing 22 REBEL null {100,80,-120}) (X)\n";
+	final String kShow = "(XWing 1 REBEL null {110,100,-120}) (X)\n" + 
+			"(XWing 2 REBEL null {110,100,80})\n" + 
+			"(XWing 3 REBEL null {110,100,80})\n" + 
+			"(XWing 4 REBEL null {110,100,80})\n" + 
+			"(XWing 5 REBEL null {110,100,-120}) (X)\n" + 
+			"(AWing 6 REBEL null {140,85,30})\n" + 
+			"(AWing 7 REBEL null {140,85,30})\n" + 
+			"(AWing 8 REBEL null {140,85,30})\n" + 
+			"(AWing 9 REBEL null {140,85,-170}) (X)\n" + 
+			"(AWing 10 REBEL null {140,85,30})\n" + 
+			"(AWing 11 REBEL null {140,85,-170}) (X)\n" + 
+			"(AWing 12 REBEL null {140,85,30})\n" + 
+			"(AWing 13 REBEL null {140,85,30})\n" + 
+			"(AWing 14 REBEL null {140,85,30})\n" + 
+			"(AWing 15 REBEL null {140,85,30})\n" + 
+			"(AWing 16 REBEL null {140,85,30})\n" + 
+			"(AWing 17 REBEL null {140,85,30})\n" + 
+			"(YWing 18 REBEL null {80,70,110})\n" + 
+			"(YWing 19 REBEL null {80,70,-90}) (X)\n" + 
+			"(YWing 20 REBEL null {80,70,110})\n" + 
+			"(XWing 21 REBEL null {110,100,-120}) (X)\n" + 
+			"(XWing 22 REBEL null {110,100,-120}) (X)\n";
 	
 	List<Fighter>fleet ;
 	
@@ -68,7 +70,7 @@ public class ShipTest {
 	public void testGetFleetTest() {
 		List<Fighter> l1 = ship.getFleetTest();
 		assertEquals(0, l1.size());
-		Fighter f = new Fighter("AWing",ship);
+		Fighter f = FighterFactory.createFighter("AWing",ship);
 		l1.add(f);
 		
 		List<Fighter> l2 = ship.getFleetTest();
@@ -117,7 +119,8 @@ public class ShipTest {
 	}	
 
 	
-	/* Comprueba addFighter con una gran cantidad de fighters" */
+	/* Comprueba addFighter con una gran cantidad de fighters" 
+	 * "40/XWing:10/AWing:30/YWing:25/XWing:35/TIEFighter:55/TIEBomber:45/TIEInterceptor:100/AWing"*/
 	@Test
 	public void testAddFighters3() {
 		
@@ -133,8 +136,8 @@ public class ShipTest {
 			else if (i<105) type = "XWing";
 			else if (i<140) type = "TIEFighter"; 
 			else if (i<195) type = "TIEBomber";
-			else if (i<240) type = "TIEShuttle";
-			else if (i<340) type = "ZWing";
+			else if (i<240) type = "TIEInterceptor";
+			else if (i<340) type = "AWing";
 			assertEquals (type,lfleet.get(i).getType());
 			if (i>0)
 				assertNotSame (lfleet.get(i-1), lfleet.get(i));
@@ -170,15 +173,15 @@ public class ShipTest {
 
 	
 	/* Comprueba que getFirstAvailableFighter devuelve null en una nave vacía */
-	@Test
-	public void testGetFirstAvailableFighter1() {
+	@Test(expected=NoFighterAvailableException.class)
+	public void testGetFirstAvailableFighter1() throws NoFighterAvailableException {
 		assertNull(ship.getFirstAvailableFighter("XWing"));
 	}
 
 	
 	/* Comprueba que getFirstAvailableFighter con un tipo que no existe devuelve null */
-	@Test
-	public void testGetFirstAvailableFighter2() {
+	@Test(expected=NoFighterAvailableException.class)
+	public void testGetFirstAvailableFighter2() throws NoFighterAvailableException {
 		ship.addFighters(kFleet1);
 		assertNull(ship.getFirstAvailableFighter("ZWing"));
 	}
@@ -187,8 +190,8 @@ public class ShipTest {
 	/* Comprueba que getFirstAvailableFighter devuelve null en una nave cuyos cazas
 	 * están todos destruídos.
 	 */
-	@Test
-	public void testGetFirstAvailableFighter3() {
+	@Test(expected=NoFighterAvailableException.class)
+	public void testGetFirstAvailableFighter3() throws NoFighterAvailableException {
 		ship.addFighters(kFleet1);
 		destroy("YWing",3);
 		assertNull(ship.getFirstAvailableFighter("YWing"));
@@ -202,7 +205,7 @@ public class ShipTest {
 	 *  de la nave
 	 */
 	@Test
-	public void testGetFirstAvailableFighter4() {
+	public void testGetFirstAvailableFighter4() throws NoFighterAvailableException {
 		ship.addFighters(kFleet1);
 		 
 		List<Fighter> lfleet = (List<Fighter>) ship.getFleetTest();
@@ -217,8 +220,8 @@ public class ShipTest {
 	 * el método auxiliar destroy(String, int) para ello) y se intenta obtener el primer
 	 * caza no destruído de la nave. Se comprueba que devuelve null. 
 	 */
-	@Test
-	public void testGetFirstAvailableFighter5() {
+	@Test(expected=NoFighterAvailableException.class)
+	public void testGetFirstAvailableFighter5() throws NoFighterAvailableException {
 		ship.addFighters(kFleet1);
 		destroy("",0);
 		assertNull(ship.getFirstAvailableFighter(""));
@@ -231,7 +234,7 @@ public class ShipTest {
 	 * Se comprueba que devuelve exactamente el último de los 'XWing'. 
 	 */
 	@Test
-	public void testGetFirstAvailableFighter6() {
+	public void testGetFirstAvailableFighter6() throws NoFighterAvailableException {
 		ship.addFighters(kFleet1);
 		destroy("XWing",6);
 		Fighter fighter = ship.getFirstAvailableFighter("XWing");
@@ -250,7 +253,7 @@ public class ShipTest {
 	 * Se comprueba que devuelve justo el segundo de los 'YWing'.
 	 */
 	@Test
-	public void testGetFirstAvailableFighter7() {
+	public void testGetFirstAvailableFighter7() throws NoFighterAvailableException {
 		ship.addFighters(kFleet1);
 		 
 		List<Fighter> lfleet = (List<Fighter>) ship.getFleetTest();
@@ -270,7 +273,7 @@ public class ShipTest {
 	 * devuelve el primero de los dos últimos.
 	 */ 
 	@Test
-	public void testGetFirstAvailableFighter8() {
+	public void testGetFirstAvailableFighter8() throws NoFighterAvailableException {
 		ship.addFighters(kFleet1);
 		destroy("XWing",5);
 		destroy("AWing",12);
@@ -306,21 +309,21 @@ public class ShipTest {
 		destroy("TIEFighter",35);
 		destroy("TIEBomber",54);
 		destroy("TIEShuttle",35);
-		destroy("ZWing",100);
+		destroy("AWing",100);
 		
 		ship.purgeFleet();
 		//Comprobamos total Fighters en ship
 		 
 		List<Fighter> auxFleet = ship.getFleetTest();
-		assertEquals(89, auxFleet.size());
+		assertEquals(124, auxFleet.size());
 		//Comprobamos que coinciden las cantidades con cada tipo
 		assertEquals(45, numberOfFightersOk("XWing"));
 		assertEquals (3, numberOfFightersOk("AWing"));
 		assertEquals (30, numberOfFightersOk("YWing"));
 		assertEquals (0, numberOfFightersOk("TIEFighter"));
 		assertEquals (1, numberOfFightersOk("TIEBomber"));
-		assertEquals (10, numberOfFightersOk ("TIEShuttle"));
-		assertEquals (0, numberOfFightersOk ("ZWing"));
+		assertEquals (45, numberOfFightersOk ("TIEInterceptor"));
+		//assertEquals (0, numberOfFightersOk ("ZWing"));
 	}
 	
 	 
@@ -389,7 +392,7 @@ public class ShipTest {
 		(list.get(18)).addShield(-200);
 		(list.get(20)).addShield(-200);
 		(list.get(21)).addShield(-200);
-		assertEquals(kShow,ship.showFleet());
+		compareLines(kShow,ship.showFleet());
 	}
 
 	/* Comprueba que en una nave sin cazas, myFleet devuelve una cadena vacía
@@ -405,9 +408,9 @@ public class ShipTest {
 	public void testMyFleet2() {
 		
 		ship.addFighters(kFleet2);
-		assertEquals(kFleet22, ship.myFleet());	
+		compareLines(kFleet22, ship.myFleet());	
 	}
-	//"40XWing:10AWing:30YWing:25XWing:35TIEFighter:55TIEBomber:45TIEShuttle:100ZWing";
+	//"65/XWing:110/AWing:30/YWing:35/TIEFighter:55/TIEBomber:45/TIEInterceptor";
 	/* Crea cazas en una nave. Destrúyelos todos y comprueba que showFleet devuelve
 	 * la cadena vacía.
 	 */
@@ -415,12 +418,12 @@ public class ShipTest {
 	public void testMyFleet3() {
 		ship.addFighters(kFleet2);
 		destroy("XWing", 65);
-		destroy("AWing",10);
+		destroy("AWing",110);
 		destroy("YWing",30);
 		destroy("TIEFighter",35);
 		destroy("TIEBomber",55);
-		destroy("TIEShuttle",45);
-		destroy("ZWing",100);
+		destroy("TIEInterceptor",45);
+		//destroy("ZWing",100);
 		assertTrue(ship.myFleet().isEmpty());
 	}
 	
@@ -437,13 +440,13 @@ public class ShipTest {
 		destroy("TIEBomber",54);
 		destroy("TIEShuttle",35);
 		destroy("ZWing",100);
-		assertEquals(kFleet21,ship.myFleet());
+		compareLines(kFleet21,ship.myFleet());
 	}
 
 	/* Comprueba toString para una nave sin cazas */
 	@Test
 	public void testToString1() {
-		assertEquals ("Ship [Tydirium 0/0] ", ship.toString());
+		compareLines ("Ship [Tydirium 0/0] ", ship.toString());
 	}
 	
 	/* En una nave crea cazas. Comprueba que la salida con toString es correcta.
@@ -452,7 +455,7 @@ public class ShipTest {
 	public void testToString2() {
 		
 		ship.addFighters(kFleet1);
-		assertEquals (kToString1, ship.toString());
+		compareLines (kToString1, ship.toString());
 	}
 	
 	/* En una nave crea cazas y  modifica el número de luchas ganadas y perdidas de
@@ -463,7 +466,7 @@ public class ShipTest {
 		for (int i=0; i<30; i++) ship.updateResults(1);
 		for (int i=0; i<45; i++) ship.updateResults(-1);
 		ship.addFighters(kFleet2);
-		assertEquals (kToString2, ship.toString());
+		compareLines (kToString2, ship.toString());
 	}
 	
 	/* En una nave crea cazas con muchas repeticiones del tipo.  
@@ -473,7 +476,7 @@ public class ShipTest {
 	public void testToString4() {
 		
 		ship.addFighters(kFleet3);
-		assertEquals (kToString3, ship.toString());
+		compareLines (kToString3, ship.toString());
 	}
 
 	/*************************************/
@@ -535,5 +538,19 @@ public class ShipTest {
 						count++;				
 		return count;
 	}
+	
+	//Compara dos Strings línea a línea
+		private void  compareLines(String expected, String result) {
+			String exp[]=expected.split("\n");
+			String res[]=result.split("\n");
+			boolean iguales = true;
+			if (exp.length!=res.length) 
+				fail("Cadena esperada de tamaño ("+exp.length+") distinto a la resultante ("+res.length+")");
+			for (int i=0; i<exp.length && iguales; i++) {
+				 if (! exp[i].contains("Action by")) {
+					 assertEquals("linea "+i, exp[i].trim(),res[i].trim());
+				 }
+			}
+		}
 
 }

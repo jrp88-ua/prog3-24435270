@@ -6,6 +6,12 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 
+import model.exceptions.FighterAlreadyInBoardException;
+import model.exceptions.FighterIsDestroyedException;
+import model.exceptions.FighterNotInBoardException;
+import model.exceptions.InvalidSizeException;
+import model.exceptions.OutOfBoundsException;
+
 /**
  * Class that represents a board
  * 
@@ -27,8 +33,11 @@ public class Board {
 	 * Creates a new board with the given size
 	 * 
 	 * @param size The size of the board
+	 * @throws InvalidSizeException If size is less than 5
 	 */
-	public Board(int size) {
+	public Board(int size) throws InvalidSizeException {
+		if (size < 5)
+			throw new InvalidSizeException(size);
 		this.size = size;
 		board = new HashMap<>();
 	}
@@ -37,16 +46,23 @@ public class Board {
 	 * Makes the given fighter fight all enemies on the neighborhood
 	 * 
 	 * @param f The fighter
+	 * @throws FighterNotInBoardException If the fighter has no position assigned
 	 */
-	public void patrol(Fighter f) {
+	public void patrol(Fighter f) throws FighterNotInBoardException {
 		Objects.requireNonNull(f);
 		if (!inBoard(f))
-			return;
-		Set<Coordinate> neigh = getNeighborhood(f.getPosition());
+			throw new FighterNotInBoardException(f);
+		Set<Coordinate> neigh;
+		try {
+			neigh = getNeighborhood(f.getPosition());
+		} catch (OutOfBoundsException e) {
+			throw new RuntimeException("The fighter " + f + " is not in the board");
+		}
 		for (Coordinate c : neigh) {
-			fight(c, f, false);
+			fight(c, f, false, true);
 			if (f.isDestroyed()) {
-				removeFighter(f);
+				// removeFighter(f); - fight(Coordinate, Fighter, boolean) ya elimina el
+				// destruido
 				return;
 			}
 		}
@@ -54,28 +70,38 @@ public class Board {
 
 	/**
 	 * Makes the given fighter fight the enemy in the given coordinate, if there is
-	 * an enemy, if not updates the location if not ocupied
+	 * an enemy, if not updates the location if not occupied
 	 * 
 	 * @param c The coordinate
 	 * @param f The fighter
 	 * @return The result of the fight, 0 in any other case
+	 * @throws FighterAlreadyInBoardException If the fighter already has a position
+	 * @throws OutOfBoundsException           If the coordinate is not in the board
+	 * @throws RuntimeException               If any of the fighters is destroyed
 	 */
-	public int launch(Coordinate c, Fighter f) {
+	public int launch(Coordinate c, Fighter f) throws FighterAlreadyInBoardException, OutOfBoundsException {
 		Objects.requireNonNull(c);
 		Objects.requireNonNull(f);
-		return fight(c, f, true);
+		if (inBoard(f))
+			throw new FighterAlreadyInBoardException(f);
+		if (!inside(c))
+			throw new OutOfBoundsException(c);
+		return fight(c, f, true, true);
 	}
 
 	/**
 	 * Makes the given fighter fight the enemy in the given coordinate, if there is
 	 * an enemy
 	 * 
-	 * @param c              The coordinate
-	 * @param f              The fighter
-	 * @param updatePosition If true, poistions are updated
+	 * @param c               The coordinate
+	 * @param f               The fighter
+	 * @param updatePosition  If true, positions are updated
+	 * @param removeDestroyed If true, the destroyed fighter will be removed from
+	 *                        the board
 	 * @return The result of the fight, 0 in any other case
+	 * @throws RuntimeException If any of the fighters is destroyed
 	 */
-	private int fight(Coordinate c, Fighter f, boolean updatePosition) {
+	private int fight(Coordinate c, Fighter f, boolean updatePosition, boolean removeDestroyed) {
 		Objects.requireNonNull(c);
 		Objects.requireNonNull(f);
 		if (!inside(c))
@@ -94,13 +120,22 @@ public class Board {
 			// no se hace nada
 			return 0;
 		}
-		int result = f.fight(enemy);
-		if (result == 0)
-			return 0;
+		int result;
+		try {
+			result = f.fight(enemy);
+		} catch (FighterIsDestroyedException e) {
+			throw new RuntimeException(e.getMessage());
+		}
 		if (result == 1) {
 			f.getMotherShip().updateResults(1);
 			enemy.getMotherShip().updateResults(-1);
-			removeFighter(enemy);
+			if (removeDestroyed) {
+				try {
+					removeFighter(enemy);
+				} catch (FighterNotInBoardException e) {
+					// imposible llegar aqui
+				}
+			}
 			if (updatePosition) {
 				board.put(c, f);
 				f.setPosition(c);
@@ -108,8 +143,15 @@ public class Board {
 		} else if (result == -1) {
 			f.getMotherShip().updateResults(-1);
 			enemy.getMotherShip().updateResults(1);
-			removeFighter(f);
+			if (removeDestroyed) {
+				try {
+					removeFighter(f);
+				} catch (FighterNotInBoardException e) {
+					// imposible llegar aqui
+				}
+			}
 		}
+
 		return result;
 	}
 
@@ -117,9 +159,12 @@ public class Board {
 	 * @param c The central coordinate
 	 * @return An ordered set with the coordinates that surround the given
 	 *         coordinate and are inside the board
+	 * @throws OutOfBoundsException If the coordinate is not in the board
 	 */
-	public Set<Coordinate> getNeighborhood(Coordinate c) {
+	public Set<Coordinate> getNeighborhood(Coordinate c) throws OutOfBoundsException {
 		Objects.requireNonNull(c);
+		if (!inside(c))
+			throw new OutOfBoundsException(c);
 		Set<Coordinate> s = c.getNeighborhood();
 		Iterator<Coordinate> it = s.iterator();
 		while (it.hasNext()) {
@@ -146,30 +191,38 @@ public class Board {
 	 * 
 	 * @param f The fighter to remove
 	 * @return True if the fighter was removed, false otherwise
+	 * @throws FighterNotInBoardException If the fighter is not in the board
 	 */
-	public boolean removeFighter(Fighter f) {
+	public void removeFighter(Fighter f) throws FighterNotInBoardException {
 		Objects.requireNonNull(f);
-		if (inBoard(f)) {
-			Fighter f2 = board.remove(f.getPosition());
-			f2.setPosition(null);
-			return true;
-		}
-		return false;
+		if (!isSynchronizedWithBoard(f))
+			throw new FighterNotInBoardException(f);
+		Fighter inPos = board.get(f.getPosition());
+		if (!f.equals(inPos))
+			throw new FighterNotInBoardException(f);
+		board.remove(f.getPosition()).setPosition(null);
 	}
 
 	/**
-	 * Checks if a fighter is in the board
+	 * Checks if a fighter is in the board but not if it is synchronized with the
+	 * board
 	 * 
 	 * @param f The fighter
 	 * @return True if the fighter is in the board
 	 */
 	public boolean inBoard(Fighter f) {
 		Objects.requireNonNull(f);
-		if (f.getPosition() == null)
-			return false;
-		if (!board.containsKey(f.getPosition()))
-			return false;
-		return board.get(f.getPosition()).equals(f);
+		return f.getPosition() != null;
+	}
+
+	/**
+	 * @param f The fighter to check if is consistent with the board
+	 * @return True if {@link #inBoard(Fighter)} returns true and is synchronized
+	 *         with the board
+	 */
+	public boolean isSynchronizedWithBoard(Fighter f) {
+		Objects.requireNonNull(f);
+		return inBoard(f) && board.containsKey(f.getPosition()) && board.get(f.getPosition()).equals(f);
 	}
 
 	/**
@@ -181,7 +234,7 @@ public class Board {
 		Fighter f = getFighter0(c);
 		if (f == null)
 			return null;
-		return new Fighter(f);
+		return f.copy();
 	}
 
 	/**
