@@ -77,7 +77,6 @@ public class Board {
 	 * @return The result of the fight, 0 in any other case
 	 * @throws FighterAlreadyInBoardException If the fighter already has a position
 	 * @throws OutOfBoundsException           If the coordinate is not in the board
-	 * @throws RuntimeException               If any of the fighters is destroyed
 	 */
 	public int launch(Coordinate c, Fighter f) throws FighterAlreadyInBoardException, OutOfBoundsException {
 		Objects.requireNonNull(c);
@@ -190,7 +189,6 @@ public class Board {
 	 * fighter
 	 * 
 	 * @param f The fighter to remove
-	 * @return True if the fighter was removed, false otherwise
 	 * @throws FighterNotInBoardException If the fighter is not in the board
 	 */
 	public void removeFighter(Fighter f) throws FighterNotInBoardException {

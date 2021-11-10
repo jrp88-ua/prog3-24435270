@@ -4,6 +4,8 @@ import model.Fighter;
 import model.Ship;
 
 /**
+ * A YWing
+ * 
  * @author Javier Rodríguez Pérez - 24435270R
  */
 public class YWing extends Fighter {
@@ -25,6 +27,13 @@ public class YWing extends Fighter {
 		super(f);
 	}
 
+	/**
+	 * Computes the damage to deal to the given enemy
+	 * 
+	 * @param n     A random number
+	 * @param enemy The enemy
+	 * @return The damage to deal
+	 */
 	@Override
 	public int getDamage(int n, Fighter enemy) {
 		int d = super.getDamage(n, enemy);
@@ -37,11 +46,17 @@ public class YWing extends Fighter {
 		return d;
 	}
 
+	/**
+	 * @return A copy of this fighter
+	 */
 	@Override
 	public YWing copy() {
 		return new YWing(this);
 	}
 
+	/**
+	 * @return The symbol of the fighter
+	 */
 	@Override
 	public char getSymbol() {
 		return 'Y';

@@ -4,6 +4,8 @@ import model.Fighter;
 import model.Ship;
 
 /**
+ * A XWing
+ * 
  * @author Javier Rodríguez Pérez - 24435270R
  */
 public class XWing extends Fighter {
@@ -24,11 +26,17 @@ public class XWing extends Fighter {
 		super(f);
 	}
 
+	/**
+	 * @return A copy of this fighter
+	 */
 	@Override
 	public XWing copy() {
 		return new XWing(this);
 	}
 
+	/**
+	 * @return The symbol of the fighter
+	 */
 	@Override
 	public char getSymbol() {
 		return 'X';

@@ -4,6 +4,8 @@ import model.Fighter;
 import model.Ship;
 
 /**
+ * A TIEFighter
+ * 
  * @author Javier Rodríguez Pérez - 24435270R
  */
 public class TIEFighter extends Fighter {
@@ -25,11 +27,17 @@ public class TIEFighter extends Fighter {
 		super(f);
 	}
 
+	/**
+	 * @return A copy of this fighter
+	 */
 	@Override
 	public TIEFighter copy() {
 		return new TIEFighter(this);
 	}
 
+	/**
+	 * @return The symbol of the fighter
+	 */
 	@Override
 	public char getSymbol() {
 		return 'f';

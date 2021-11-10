@@ -7,8 +7,15 @@ import model.fighters.TIEInterceptor;
 import model.fighters.XWing;
 import model.fighters.YWing;
 
+/**
+ * A class to create fighters
+ * @author Javier Rodríguez Pérez - 24435270R
+ */
 public class FighterFactory {
 
+  /**
+   * Don't instanciate this class >:(
+   */
 	private FighterFactory() {
 	}
 

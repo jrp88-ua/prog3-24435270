@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 import model.exceptions.FighterIsDestroyedException;
 
 /**
@@ -13,7 +15,7 @@ public abstract class Fighter {
 	/**
 	 * Default velocity
 	 */
-	static final int DEF_VALOCITY = 100;
+	static final int DEF_VELOCITY = 100;
 	/**
 	 * Default attack
 	 */
@@ -56,12 +58,11 @@ public abstract class Fighter {
 	/**
 	 * Creates a new fighter
 	 * 
-	 * @param type   The fighter type
 	 * @param mother The fighter mother ship
 	 */
 	protected Fighter(Ship mother) {
 		this.motherShip = mother;
-		this.velocity = DEF_VALOCITY;
+		this.velocity = DEF_VELOCITY;
 		this.attack = DEF_ATTACK;
 		this.shield = DEF_SHIELD;
 		this.id = nextId++;
@@ -107,6 +108,7 @@ public abstract class Fighter {
 	 * @return The damage to deal
 	 */
 	public int getDamage(int n, Fighter enemy) {
+		Objects.requireNonNull(enemy);
 		return (n * getAttack()) / 300;
 	}
 
