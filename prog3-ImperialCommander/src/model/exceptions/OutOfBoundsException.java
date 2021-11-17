@@ -27,7 +27,7 @@ public class OutOfBoundsException extends Exception {
 	 */
 	@Override
 	public String getMessage() {
-		return "Tryed to access a coordinate out of the board: " + c;
+		return "ERROR: Tryed to access a coordinate out of the board: " + c;
 	}
 
 }

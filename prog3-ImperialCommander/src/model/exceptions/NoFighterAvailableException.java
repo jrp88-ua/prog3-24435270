@@ -25,7 +25,7 @@ public class NoFighterAvailableException extends Exception {
 	 */
 	@Override
 	public String getMessage() {
-		return "There are no fighters of the type " + type + " that are not destroyed";
+		return "ERROR: There are no fighters of the type " + type + " that are not destroyed";
 	}
 
 }

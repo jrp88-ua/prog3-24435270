@@ -27,7 +27,7 @@ public class FighterAlreadyInBoardException extends Exception {
 	 */
 	@Override
 	public String getMessage() {
-		return "Tryed to launch " + f + " but it is already in the board";
+		return "ERROR: Tryed to launch " + f + " but it is already in the board";
 	}
 
 }

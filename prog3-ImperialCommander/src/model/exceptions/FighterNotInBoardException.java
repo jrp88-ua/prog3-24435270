@@ -27,7 +27,7 @@ public class FighterNotInBoardException extends Exception {
 	 */
 	@Override
 	public String getMessage() {
-		return "The fighter " + f + " is not in the board";
+		return "ERROR: The fighter " + f + " is not in the board";
 	}
 
 }

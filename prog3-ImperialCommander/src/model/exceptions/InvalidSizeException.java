@@ -25,7 +25,7 @@ public class InvalidSizeException extends Exception {
 	 */
 	@Override
 	public String getMessage() {
-		return "Tryed to create a board with size < 5 (" + s + ")";
+		return "ERROR: Tryed to create a board with size < 5 (" + s + ")";
 	}
 
 }

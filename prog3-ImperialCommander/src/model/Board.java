@@ -27,7 +27,7 @@ public class Board {
 	/**
 	 * Board of the game
 	 */
-	private Map<Coordinate, Fighter> board;
+	protected Map<Coordinate, Fighter> board;
 
 	/**
 	 * Creates a new board with the given size
@@ -50,6 +50,8 @@ public class Board {
 	 */
 	public void patrol(Fighter f) throws FighterNotInBoardException {
 		Objects.requireNonNull(f);
+		if (f.isDestroyed())
+			throw new RuntimeException("ERROR: " + f + " is destroyed");
 		if (!inBoard(f))
 			throw new FighterNotInBoardException(f);
 		Set<Coordinate> neigh;

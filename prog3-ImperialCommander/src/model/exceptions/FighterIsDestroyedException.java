@@ -27,7 +27,7 @@ public class FighterIsDestroyedException extends Exception {
 	 */
 	@Override
 	public String getMessage() {
-		return "The fighter" + f + " was used, but is destroyed";
+		return "ERROR: The fighter" + f + " was used, but is destroyed";
 	}
 
 }

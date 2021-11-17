@@ -21,7 +21,7 @@ public class Ship {
 	/**
 	 * List of foghters
 	 */
-	private List<Fighter> fleet = new ArrayList<>();
+	protected List<Fighter> fleet = new ArrayList<>();
 	/**
 	 * Name of the ship
 	 */
@@ -129,7 +129,8 @@ public class Ship {
 			int amm = Integer.parseInt(sp[0]);
 			for (int i = 0; i < amm; i++) {
 				Fighter fighter = FighterFactory.createFighter(sp[1], this);
-				fleet.add(fighter);
+				if (fighter != null)
+					fleet.add(fighter);
 			}
 		}
 	}
@@ -149,8 +150,8 @@ public class Ship {
 
 	@Override
 	public String toString() {
-		return new StringBuilder("Ship [").append(getName()).append(' ').append(getWins()).append('/').append(getLosses())
-				.append("] ").append(myFleet()).toString();
+		return new StringBuilder("Ship [").append(getName()).append(' ').append(getWins()).append('/')
+				.append(getLosses()).append("] ").append(myFleet()).toString();
 	}
 
 	/**
@@ -158,7 +159,7 @@ public class Ship {
 	 * 
 	 * @return the fleet
 	 */
-	List<Fighter> getFleetTest() {
+	public List<Fighter> getFleetTest() {
 		return fleet;
 	}
 
