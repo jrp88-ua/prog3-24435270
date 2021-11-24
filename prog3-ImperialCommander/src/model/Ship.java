@@ -111,7 +111,8 @@ public class Ship {
 		Objects.requireNonNull(type);
 		for (Fighter f : fleet)
 			if (!f.isDestroyed() && (type.isEmpty() || f.getType().equals(type)))
-				return f;
+				if (f.getPosition() != null)
+					return f;
 		throw new NoFighterAvailableException(type);
 	}
 
