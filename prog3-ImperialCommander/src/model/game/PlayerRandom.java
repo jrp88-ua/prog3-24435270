@@ -3,7 +3,6 @@ package model.game;
 import java.util.List;
 
 import model.Coordinate;
-import model.Fighter;
 import model.RandomNumber;
 import model.Side;
 import model.exceptions.FighterAlreadyInBoardException;
@@ -88,7 +87,7 @@ public class PlayerRandom implements IPlayer {
 		if (option == 99)
 			return false;
 		String where = "";
-		if (85 <= option && option <= 98) { // mejora
+		if (85 <= option && option <= 98) { // upgrade
 			where = "";
 		} else if (25 <= option && option <= 84) { // launch
 			where = "ship";
@@ -102,7 +101,7 @@ public class PlayerRandom implements IPlayer {
 		}
 		int id = ids.get(RandomNumber.newRandomNumber(ids.size()));
 		try {
-			if (85 <= option && option <= 98) { // mejora
+			if (85 <= option && option <= 98) { // upgrade
 				ship.improveFighter(id, option, board);
 			} else if (25 <= option && option <= 84) { // launch
 				int x = RandomNumber.newRandomNumber(board.getSize());
@@ -116,7 +115,6 @@ public class PlayerRandom implements IPlayer {
 				| OutOfBoundsException e) {
 			throw new RuntimeException(e);
 		}
-
 		return true;
 	}
 

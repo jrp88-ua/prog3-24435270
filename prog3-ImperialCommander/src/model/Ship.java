@@ -44,6 +44,8 @@ public class Ship {
 	 * @param side The side of the ship
 	 */
 	public Ship(String name, Side side) {
+		Objects.requireNonNull(name);
+		Objects.requireNonNull(side);
 		this.name = name;
 		this.side = side;
 		this.wins = 0;
@@ -124,6 +126,7 @@ public class Ship {
 	 * @param fighters The fighters
 	 */
 	public void addFighters(String fighters) {
+		Objects.requireNonNull(fighters);
 		String[] fs = fighters.split(":");
 		for (String f : fs) {
 			String[] sp = f.split("/");

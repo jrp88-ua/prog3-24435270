@@ -61,7 +61,7 @@ public abstract class Fighter {
 	 * @param mother The fighter mother ship
 	 */
 	protected Fighter(Ship mother) {
-		this.motherShip = mother;
+		this.motherShip = Objects.requireNonNull(mother);
 		this.velocity = DEF_VELOCITY;
 		this.attack = DEF_ATTACK;
 		this.shield = DEF_SHIELD;
@@ -120,6 +120,7 @@ public abstract class Fighter {
 	 * @throws FighterIsDestroyedException if this fighter or the enemy is destroyed
 	 */
 	public int fight(Fighter enemy) throws FighterIsDestroyedException {
+		Objects.requireNonNull(enemy);
 		if (isDestroyed())
 			throw new FighterIsDestroyedException(this);
 		if (enemy.isDestroyed())

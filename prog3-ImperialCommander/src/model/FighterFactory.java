@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 import model.fighters.AWing;
 import model.fighters.TIEBomber;
 import model.fighters.TIEFighter;
@@ -27,6 +29,8 @@ public class FighterFactory {
 	 * @return The fighter, null if an invalid type is given
 	 */
 	public static Fighter createFighter(String type, Ship mother) {
+		Objects.requireNonNull(type);
+		Objects.requireNonNull(mother);
 		switch (type) {
 		case "AWing":
 			return new AWing(mother);

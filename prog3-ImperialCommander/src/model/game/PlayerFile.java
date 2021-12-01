@@ -1,8 +1,17 @@
 package model.game;
 
 import java.io.BufferedReader;
+import java.io.IOException;
+import java.util.Objects;
+import java.util.OptionalInt;
 
+import model.Coordinate;
 import model.Side;
+import model.exceptions.FighterAlreadyInBoardException;
+import model.exceptions.FighterNotInBoardException;
+import model.exceptions.NoFighterAvailableException;
+import model.exceptions.OutOfBoundsException;
+import model.game.exceptions.WrongFighterIdException;
 
 /**
  * @author Javier Rodríguez Pérez - 24435270R
@@ -12,72 +21,128 @@ public class PlayerFile implements IPlayer {
 	private final BufferedReader br;
 	private final GameShip ship;
 	private GameBoard board;
-	
+	private String fighters;
+
 	public PlayerFile(Side side, BufferedReader br) {
-		this.ship = new GameShip(null, side);
+		Objects.requireNonNull(side);
+		Objects.requireNonNull(br);
+		this.ship = new GameShip("PlayerFile " + side.name() + " Ship", side);
 		this.br = br;
 	}
 
-	/**
-	 * {@inheritDoc}
-	 */
 	@Override
 	public void setBoard(GameBoard gb) {
+		Objects.requireNonNull(gb);
 		this.board = gb;
 	}
 
-	/**
-	 * {@inheritDoc}
-	 */
 	@Override
 	public GameShip getGameShip() {
-		// TODO Auto-generated method stub
-		return null;
+		return ship;
 	}
 
-	/**
-	 * {@inheritDoc}
-	 */
 	@Override
 	public void initFighters() {
-		// TODO Auto-generated method stub
-
+		try {
+			fighters = br.readLine();
+			ship.addFighters(fighters);
+		} catch (Exception e) {
+			throw new RuntimeException(e);
+		}
 	}
 
-	/**
-	 * {@inheritDoc}
-	 */
 	@Override
 	public boolean isFleetDestroyed() {
-		// TODO Auto-generated method stub
-		return false;
+		return getGameShip().isFleetDestroyed();
 	}
 
-	/**
-	 * {@inheritDoc}
-	 */
 	@Override
 	public String showShip() {
-		// TODO Auto-generated method stub
-		return null;
+		return new StringBuilder(getGameShip().toString()).append("\n").append(getGameShip().showFleet()).toString();
 	}
 
-	/**
-	 * {@inheritDoc}
-	 */
 	@Override
 	public void purgeFleet() {
-		// TODO Auto-generated method stub
+		getGameShip().purgeFleet();
+	}
 
+	@Override
+	public boolean nextPlay() {
+		String line;
+		try {
+			line = br.readLine();
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		}
+		if ("exit".equals(line))
+			return false;
+		String[] args = line.split(" ");
+		if (line.startsWith("improve")) {
+			if (args.length != 3) {
+				System.err.println("ERROR: argumentos invalidos");
+				return true;
+			}
+			int id = Integer.parseInt(args[1]);
+			int qty = Integer.parseInt(args[2]);
+			if (qty >= 100) {
+				System.err.println("ERROR: qty invalido");
+				return true;
+			}
+			try {
+				ship.improveFighter(id, qty, board);
+			} catch (WrongFighterIdException e) {
+				System.err.println("ERROR: " + e.getMessage());
+			}
+		} else if (line.startsWith("patrol")) {
+			if (args.length != 2) {
+				System.err.println("ERROR: argumentos invalidos");
+				return true;
+			}
+			try {
+				ship.patrol(Integer.parseInt(args[1]), board);
+			} catch (FighterNotInBoardException | WrongFighterIdException e) {
+				System.err.println("ERROR: " + e.getMessage());
+			}
+		} else if (line.startsWith("launch")) {
+			if (args.length != 3 || args.length != 4) {
+				System.err.println("ERROR: argumentos invalidos");
+				return true;
+			}
+			try {
+				int x = Integer.parseInt(args[1]);
+				int y = Integer.parseInt(args[2]);
+				Coordinate c = new Coordinate(x, y);
+				int id;
+				OptionalInt oId = parseNum(args[3]);
+				if (oId.isPresent()) {
+					id = oId.getAsInt();
+				} else {
+					id = ship.getFirstAvailableFighter(args.length == 4 ? args[3] : "").getId();
+				}
+				ship.launch(id, c, board);
+			} catch (FighterAlreadyInBoardException | OutOfBoundsException | WrongFighterIdException
+					| NoFighterAvailableException e) {
+				System.err.println("ERROR: " + e.getMessage());
+			}
+			return true;
+		} else {
+			System.err.println("ERROR: option invalida");
+		}
+		return true;
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * Parses a string to a number
+	 * 
+	 * @param str The string to parse
+	 * @return An optional, empty if the string could not be parsed
 	 */
-	@Override
-	public boolean nextPlay() {
-		// TODO Auto-generated method stub
-		return false;
+	private static OptionalInt parseNum(String str) {
+		try {
+			return OptionalInt.of(Integer.valueOf(str));
+		} catch (NumberFormatException e) {
+			return OptionalInt.empty();
+		}
 	}
 
 }

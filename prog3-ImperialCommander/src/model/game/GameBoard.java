@@ -46,7 +46,7 @@ public class GameBoard extends Board {
 			sb.append(i);
 			sb.append("|");
 			for (int j = 0; j < getSize(); j++) {
-				Coordinate c = new Coordinate(i, j);
+				Coordinate c = new Coordinate(j, i);
 				sb.append(board.containsKey(c) ? board.get(c).getSymbol() : " ");
 			}
 			sb.append("\n");

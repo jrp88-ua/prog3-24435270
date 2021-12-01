@@ -231,6 +231,7 @@ public class Board {
 	 *         there
 	 */
 	public Fighter getFighter(Coordinate c) {
+		Objects.requireNonNull(c);
 		Fighter f = getFighter0(c);
 		if (f == null)
 			return null;

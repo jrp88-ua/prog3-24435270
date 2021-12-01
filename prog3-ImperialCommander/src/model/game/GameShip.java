@@ -2,6 +2,7 @@ package model.game;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
@@ -22,9 +23,6 @@ import model.game.exceptions.WrongFighterIdException;
  */
 public class GameShip extends Ship {
 
-	/**
-	 * {@inheritDoc}
-	 */
 	public GameShip(String name, Side side) {
 		super(name, side);
 	}
@@ -50,6 +48,7 @@ public class GameShip extends Ship {
 	 *                                 given id
 	 */
 	public void improveFighter(int id, int qty, Board b) throws WrongFighterIdException {
+		Objects.requireNonNull(b);
 		Fighter f = getFighter(id);
 		try {
 			b.removeFighter(f);
@@ -74,6 +73,7 @@ public class GameShip extends Ship {
 	 *                                    the given id
 	 */
 	public void patrol(int id, Board board) throws FighterNotInBoardException, WrongFighterIdException {
+		Objects.requireNonNull(board);
 		board.patrol(getFighter(id));
 	}
 
@@ -91,6 +91,8 @@ public class GameShip extends Ship {
 	 */
 	public void launch(int id, Coordinate c, Board board)
 			throws FighterAlreadyInBoardException, OutOfBoundsException, WrongFighterIdException {
+		Objects.requireNonNull(c);
+		Objects.requireNonNull(board);
 		board.launch(c, getFighter(id));
 	}
 
