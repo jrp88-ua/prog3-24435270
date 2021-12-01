@@ -1,0 +1,175 @@
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 2/TIEInterceptor
+(TIEInterceptor 1 IMPERIAL null {145,85,60})
+(TIEInterceptor 2 IMPERIAL null {145,85,60})
+
+Ship [PlayerFile REBEL Ship 0/0] 2/YWing
+(YWing 3 REBEL null {80,70,110})
+(YWing 4 REBEL null {80,70,110})
+
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1| i        
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 2/TIEInterceptor
+(TIEInterceptor 1 IMPERIAL [1,1] {145,85,60})
+(TIEInterceptor 2 IMPERIAL null {145,85,60})
+
+Ship [PlayerFile REBEL Ship 0/0] 2/YWing
+(YWing 3 REBEL null {80,70,110})
+(YWing 4 REBEL null {80,70,110})
+
+REBEL(0):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1| i        
+2| Y        
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 2/TIEInterceptor
+(TIEInterceptor 1 IMPERIAL [1,1] {145,85,60})
+(TIEInterceptor 2 IMPERIAL null {145,85,60})
+
+Ship [PlayerFile REBEL Ship 0/0] 2/YWing
+(YWing 3 REBEL [1,2] {80,70,110})
+(YWing 4 REBEL null {80,70,110})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1| i        
+2| Y        
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 2/TIEInterceptor
+(TIEInterceptor 1 IMPERIAL [1,1] {145,85,60})
+(TIEInterceptor 2 IMPERIAL null {145,85,60})
+
+Ship [PlayerFile REBEL Ship 0/0] 2/YWing
+(YWing 3 REBEL [1,2] {80,70,110})
+(YWing 4 REBEL null {80,70,110})
+
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1| i        
+2| Yi       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 2/TIEInterceptor
+(TIEInterceptor 1 IMPERIAL [1,1] {145,85,60})
+(TIEInterceptor 2 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerFile REBEL Ship 0/0] 2/YWing
+(YWing 3 REBEL [1,2] {80,70,110})
+(YWing 4 REBEL null {80,70,110})
+
+REBEL(1):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1| i        
+2| Yi       
+3|  Y       
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 2/TIEInterceptor
+(TIEInterceptor 1 IMPERIAL [1,1] {145,85,60})
+(TIEInterceptor 2 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerFile REBEL Ship 0/0] 2/YWing
+(YWing 3 REBEL [1,2] {80,70,110})
+(YWing 4 REBEL [2,3] {80,70,110})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1| i        
+2| Yi       
+3|  Y       
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 2/TIEInterceptor
+(TIEInterceptor 1 IMPERIAL [1,1] {145,85,60})
+(TIEInterceptor 2 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerFile REBEL Ship 0/0] 2/YWing
+(YWing 3 REBEL [1,2] {80,70,110})
+(YWing 4 REBEL [2,3] {80,70,110})
+
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1| i        
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 2/0] 2/TIEInterceptor
+(TIEInterceptor 1 IMPERIAL [1,1] {145,85,60})
+(TIEInterceptor 2 IMPERIAL [2,2] {145,85,9})
+
+Ship [PlayerFile REBEL Ship 0/2] 
+(YWing 3 REBEL null {80,70,-30}) (X)
+(YWing 4 REBEL null {80,70,-20}) (X)

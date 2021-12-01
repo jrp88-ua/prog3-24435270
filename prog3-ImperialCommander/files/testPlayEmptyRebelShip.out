@@ -1,0 +1,38 @@
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 1/TIEInterceptor
+(TIEInterceptor 1 IMPERIAL null {145,85,60})
+
+Ship [PlayerFile REBEL Ship 0/0] 
+
+IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1| i        
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 1/TIEInterceptor
+(TIEInterceptor 1 IMPERIAL [1,1] {145,85,60})
+
+Ship [PlayerFile REBEL Ship 0/0] 
+

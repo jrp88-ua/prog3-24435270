@@ -1,0 +1,3066 @@
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,30,115})
+(TIEInterceptor 2 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,70,110})
+(YWing 4 REBEL null {80,70,110})
+(AWing 5 REBEL null {140,85,30})
+
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,70,110})
+(YWing 4 REBEL null {80,70,110})
+(AWing 5 REBEL null {140,85,30})
+
+REBEL(0):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,85,30})
+
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,85,30})
+
+REBEL(1):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,133,78})
+
+IMPERIAL(2):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,133,78})
+
+REBEL(1):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,133,78})
+
+IMPERIAL(2):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,133,78})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,182,127})
+
+IMPERIAL(2):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,182,127})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,182,127})
+
+IMPERIAL(2):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,182,127})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,182,127})
+
+IMPERIAL(2):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|          
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,182,127})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|A         
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|A         
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+IMPERIAL(2):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|A         
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+REBEL(3):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|A         
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|A         
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+IMPERIAL(2):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|A         
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+REBEL(3):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|A         
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|A         
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+IMPERIAL(2):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|         Y
+5|A         
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,4] {80,70,110})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+REBEL(3):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|A         
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,116,156})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|A         
+6|          
+7|          
+8|        i 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [8,8] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,116,156})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|A         
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL null {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,116,156})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|A         
+6|   Y      
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL null {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,6] {80,116,156})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|A         
+6|   Y      
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL null {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,6] {80,116,156})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|A         
+6|   Y      
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,6] {80,116,156})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+REBEL(3):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|A         
+6|   Y      
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,6] {80,116,156})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|A         
+6|   Y      
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,6] {80,116,156})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|A         
+6|   Y      
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,6] {80,116,156})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+REBEL(3):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|A         
+6|   Y      
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,6] {80,116,156})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  b       
+3|       Y  
+4|          
+5|A         
+6|   Y      
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [2,2] {70,30,115})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,6] {80,116,156})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|   Y      
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,6] {80,116,156})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+REBEL(3):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|          
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|          
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|          
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|         Y
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|         Y
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|         Y
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+REBEL(3):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|         Y
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|         Y
+7|          
+8|     i    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL [5,8] {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL null {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+REBEL(3):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL null {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL null {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+REBEL(3):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+IMPERIAL(0):ERROR: La nave no tiene cazas en el tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|A         
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [0,5] {140,182,127})
+
+REBEL(3):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|          
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,224,170})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|          
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL null {70,73,158})
+(TIEInterceptor 2 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,224,170})
+
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|          
+5|          
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,224,170})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|          
+5|          
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,224,170})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|          
+5|          
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,224,170})
+
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|          
+5|   i      
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,224,170})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|          
+5|   i      
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,224,170})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|          
+5|   i      
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,224,170})
+
+IMPERIAL(2):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|          
+5|   i      
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL null {140,224,170})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+IMPERIAL(2):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|         Y
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [9,6] {80,165,205})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+REBEL(3):AFTER REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+IMPERIAL(2):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL null {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+IMPERIAL(2):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+REBEL(3):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+IMPERIAL(2):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+REBEL(3):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+IMPERIAL(2):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|   i      
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 1/TIEBomber:1/TIEInterceptor
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL [3,5] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 0/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,170})
+
+REBEL(3):AFTER REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+(TIEInterceptor 2 IMPERIAL null {145,219,0}) (X)
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+REBEL(3):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+REBEL(3):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+IMPERIAL(1):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+REBEL(3):AFTER REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+IMPERIAL(1):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+REBEL(3):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER REBEL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         b
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,0] {70,73,158})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,118,204})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+REBEL(3):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,118,204})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,118,204})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,162,248})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+REBEL(3):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,162,248})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,162,248})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|  A       
+5|         b
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,5] {70,162,248})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [7,3] {80,70,110})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+REBEL(3):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|         b
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,5] {70,162,248})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL null {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|         b
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [9,5] {70,162,248})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL null {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,209,295})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL null {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,209,295})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL null {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,209,295})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL null {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+IMPERIAL(0):ERROR: La nave no tiene cazas en el tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|          
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,209,295})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL null {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|          
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,209,295})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|          
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,209,295})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|          
+6|          
+7|   YY b   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [6,7] {70,209,295})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+REBEL(3):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|          
+6|          
+7|   YY b   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [6,7] {70,209,295})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|          
+6|          
+7|   YY b   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [6,7] {70,209,295})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+IMPERIAL(1):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|          
+6|          
+7|   YY b   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [6,7] {70,209,295})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+REBEL(3):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|          
+6|          
+7|   YY b   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [6,7] {70,209,295})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|          
+6|          
+7|   YY b   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [6,7] {70,209,295})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|  A       
+5|          
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [2,4] {140,224,140})
+
+REBEL(3):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL null {140,268,184})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL null {140,268,184})
+
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|  b       
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,5] {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL null {140,268,184})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|  b       
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,5] {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL null {140,316,232})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|  b       
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,5] {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL null {140,316,232})
+
+IMPERIAL(1):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|  b       
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,5] {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL null {140,316,232})
+
+REBEL(2):AFTER REBEL
+  0123456789
+  ----------
+0|        A 
+1|          
+2|          
+3|          
+4|          
+5|  b       
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,5] {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [8,0] {140,316,232})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|        A 
+1|          
+2|          
+3|          
+4|          
+5|  b       
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,5] {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [8,0] {140,316,232})
+
+IMPERIAL(1):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|        A 
+1|          
+2|          
+3|          
+4|          
+5|  b       
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,5] {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [8,0] {140,316,232})
+
+REBEL(3):ERROR: La nave no tiene cazas a añadir al tablero
+AFTER REBEL
+  0123456789
+  ----------
+0|        A 
+1|          
+2|          
+3|          
+4|          
+5|  b       
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,5] {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [8,0] {140,316,232})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|        A 
+1|          
+2|          
+3|          
+4|          
+5|  b       
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,5] {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [8,0] {140,316,232})
+
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|        A 
+1|          
+2|          
+3|          
+4|          
+5|  b       
+6|          
+7|   YY     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,5] {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL [4,7] {80,116,156})
+(AWing 5 REBEL [8,0] {140,316,232})
+
+REBEL(3):AFTER REBEL
+  0123456789
+  ----------
+0|        A 
+1|          
+2|          
+3|          
+4|          
+5|  b       
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,5] {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL null {80,159,200})
+(AWing 5 REBEL [8,0] {140,316,232})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|        A 
+1|          
+2|          
+3|          
+4|          
+5|  b       
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,5] {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL null {80,159,200})
+(AWing 5 REBEL [8,0] {140,316,232})
+
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|        A 
+1|          
+2|          
+3|          
+4|          
+5|  b       
+6|          
+7|   Y      
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,5] {70,254,341})
+
+Ship [PlayerRandom REBEL Ship 1/0] 2/YWing:1/AWing
+(YWing 3 REBEL [3,7] {80,212,252})
+(YWing 4 REBEL null {80,159,200})
+(AWing 5 REBEL [8,0] {140,316,232})
+
+REBEL(2):
