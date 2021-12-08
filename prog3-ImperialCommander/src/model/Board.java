@@ -257,13 +257,6 @@ public class Board {
 	}
 
 	/**
-	 * @param size the size to set
-	 */
-	public void setSize(int size) {
-		this.size = size;
-	}
-
-	/**
 	 * Creates the hash code of this board
 	 */
 	@Override

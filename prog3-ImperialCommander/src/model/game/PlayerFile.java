@@ -18,11 +18,27 @@ import model.game.exceptions.WrongFighterIdException;
  */
 public class PlayerFile implements IPlayer {
 
+  /**
+   * the reader reading the instructions
+   */
 	private final BufferedReader br;
+	/**
+	 * The ship of the player
+	 */
 	private final GameShip ship;
+	/**
+	 * The board of the game
+	 */
 	private GameBoard board;
+	/**
+	 * The fighters of the player
+	 */
 	private String fighters;
 
+  /**
+   * @param side The side of the player
+   * @param br the reader reading the instructions
+   */
 	public PlayerFile(Side side, BufferedReader br) {
 		Objects.requireNonNull(side);
 		Objects.requireNonNull(br);
@@ -79,33 +95,33 @@ public class PlayerFile implements IPlayer {
 		String[] args = line.split(" ");
 		if (line.startsWith("improve")) {
 			if (args.length != 3) {
-				System.err.println("ERROR: argumentos invalidos");
+				System.out.println("ERROR: argumentos invalidos");
 				return true;
 			}
 			int id = Integer.parseInt(args[1]);
 			int qty = Integer.parseInt(args[2]);
 			if (qty >= 100) {
-				System.err.println("ERROR: qty invalido");
+				System.out.println("ERROR: qty invalido");
 				return true;
 			}
 			try {
 				ship.improveFighter(id, qty, board);
 			} catch (WrongFighterIdException e) {
-				System.err.println("ERROR: " + e.getMessage());
+				System.out.println("ERROR: " + e.getMessage());
 			}
 		} else if (line.startsWith("patrol")) {
 			if (args.length != 2) {
-				System.err.println("ERROR: argumentos invalidos");
+				System.out.println("ERROR: argumentos invalidos");
 				return true;
 			}
 			try {
 				ship.patrol(Integer.parseInt(args[1]), board);
 			} catch (FighterNotInBoardException | WrongFighterIdException e) {
-				System.err.println("ERROR: " + e.getMessage());
+				System.out.println("ERROR: " + e.getMessage());
 			}
 		} else if (line.startsWith("launch")) {
-			if (args.length != 3 || args.length != 4) {
-				System.err.println("ERROR: argumentos invalidos");
+			if (args.length != 3 && args.length != 4) {
+				System.out.println("ERROR: argumentos invalidos");
 				return true;
 			}
 			try {
@@ -122,11 +138,11 @@ public class PlayerFile implements IPlayer {
 				ship.launch(id, c, board);
 			} catch (FighterAlreadyInBoardException | OutOfBoundsException | WrongFighterIdException
 					| NoFighterAvailableException e) {
-				System.err.println("ERROR: " + e.getMessage());
+				System.out.println("ERROR: " + e.getMessage());
 			}
 			return true;
 		} else {
-			System.err.println("ERROR: option invalida");
+			System.out.println("ERROR: option invalida");
 		}
 		return true;
 	}

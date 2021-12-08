@@ -12,9 +12,10 @@ import model.exceptions.InvalidSizeException;
  */
 public class GameBoard extends Board {
 
-	/**
-	 * {@inheritDoc}
-	 */
+  /**
+   * @param size the size of the board
+   * @throws InvalidSizeException if the size is too small
+   */
 	public GameBoard(int size) throws InvalidSizeException {
 		super(size);
 	}

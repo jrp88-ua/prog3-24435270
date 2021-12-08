@@ -1,6 +1,7 @@
 package model.game;
 
 import java.util.List;
+import java.util.Objects;
 
 import model.Coordinate;
 import model.RandomNumber;
@@ -35,13 +36,13 @@ public class PlayerRandom implements IPlayer {
 	 * @param numFighters The number of fighters
 	 */
 	public PlayerRandom(Side side, int numFighters) {
-		this.ship = new GameShip("PlayerRamdom " + side.name() + " Ship", side);
+		this.ship = new GameShip("PlayerRandom " + Objects.requireNonNull(side).name() + " Ship", side);
 		this.numFighters = numFighters;
 	}
 
 	@Override
 	public void setBoard(GameBoard gb) {
-		this.board = gb;
+		this.board = Objects.requireNonNull(gb);
 	}
 
 	@Override

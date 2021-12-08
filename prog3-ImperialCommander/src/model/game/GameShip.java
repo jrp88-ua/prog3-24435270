@@ -23,6 +23,10 @@ import model.game.exceptions.WrongFighterIdException;
  */
 public class GameShip extends Ship {
 
+  /**
+   * @param name the name of the ship
+   * @param side the side of the ship
+   */
 	public GameShip(String name, Side side) {
 		super(name, side);
 	}

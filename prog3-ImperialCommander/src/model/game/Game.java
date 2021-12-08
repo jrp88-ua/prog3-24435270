@@ -5,14 +5,34 @@ import java.util.Objects;
 import model.Side;
 import model.exceptions.InvalidSizeException;
 
+/**
+ * Class that represents a game
+ * @author Javier Rodríguez Pérez - 24435270R
+ */
 public class Game {
 
+  /**
+   * Size of a board
+   */
 	public static final int BOARD_SIZE = 10;
-
+  
+  /**
+   * Board of the game
+   */
 	private final GameBoard board;
+	/**
+	 * The imperial player
+	 */
 	private final IPlayer imperial;
+	/**
+	 * The rebel player
+	 */
 	private final IPlayer rebel;
 
+  /**
+   * @param imperial the imperial player
+   * @param rebel the rebel player
+   */
 	public Game(IPlayer imperial, IPlayer rebel) {
 		Objects.requireNonNull(imperial);
 		Objects.requireNonNull(rebel);
@@ -27,10 +47,17 @@ public class Game {
 		this.rebel.setBoard(this.board);
 	}
 
+  /**
+   * @return the board of the game
+   */
 	public GameBoard getGameBoard() {
 		return board;
 	}
 
+  /**
+   * Starts the game
+   * @return the wining side
+   */
 	public Side play() {
 		imperial.initFighters();
 		rebel.initFighters();
@@ -38,7 +65,7 @@ public class Game {
 		do {
 			System.out.println("BEFORE IMPERIAL");
 			showBoardAndShip();
-			System.out.println("IMPERIAL(" + board.numFighters(Side.IMPERIAL) + "):");
+			System.out.print("IMPERIAL(" + board.numFighters(Side.IMPERIAL) + "): ");
 			if (!imperial.nextPlay()) {
 				winner = Side.REBEL;
 				break;
@@ -48,7 +75,7 @@ public class Game {
 			winner = fleetDestroyed();
 			if (winner != null)
 				break;
-			System.out.println("REBEL(" + board.numFighters(Side.REBEL) + "):");
+			System.out.print("REBEL(" + board.numFighters(Side.REBEL) + "): ");
 			if (!rebel.nextPlay()) {
 				winner = Side.IMPERIAL;
 				break;
@@ -59,7 +86,7 @@ public class Game {
 			winner = fleetDestroyed();
 			if (winner != null)
 				break;
-		} while (winner != null);
+		} while (winner == null);
 		purgeFLeets();
 		return winner;
 	}
@@ -82,8 +109,8 @@ public class Game {
 	 */
 	private void showBoardAndShip() {
 		System.out.println(board);
-		System.out.println(imperial.getGameShip());
-		System.out.println(rebel.getGameShip());
+		System.out.println(imperial.showShip());
+		System.out.println(rebel.showShip());
 	}
 
 	/**
