@@ -113,7 +113,7 @@ public class Ship {
 		Objects.requireNonNull(type);
 		for (Fighter f : fleet)
 			if (!f.isDestroyed() && (type.isEmpty() || f.getType().equals(type)))
-				if (f.getPosition() != null)
+				if (f.getPosition() == null)
 					return f;
 		throw new NoFighterAvailableException(type);
 	}

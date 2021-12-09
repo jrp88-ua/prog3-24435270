@@ -52,6 +52,7 @@ public class GameMorePreTest {
 		
 		String sout = Stream2StandardIO(); //Cambia salida standard a un Stream
 		assertEquals(Side.REBEL, winner);
+		// System.out.println(sout); // test
 		String solution = readSolutionFromFile("files/testPlayRandom11.out"); //Cambia salida de Stream a la consola
 		compareLines(solution, sout, false);
 	}

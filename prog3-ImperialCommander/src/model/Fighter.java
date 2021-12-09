@@ -61,7 +61,8 @@ public abstract class Fighter {
 	 * @param mother The fighter mother ship
 	 */
 	protected Fighter(Ship mother) {
-		this.motherShip = Objects.requireNonNull(mother);
+		Objects.requireNonNull(mother);
+		this.motherShip = mother;
 		this.velocity = DEF_VELOCITY;
 		this.attack = DEF_ATTACK;
 		this.shield = DEF_SHIELD;
@@ -75,6 +76,7 @@ public abstract class Fighter {
 	 * @param f The fighter to copy
 	 */
 	protected Fighter(Fighter f) {
+		Objects.requireNonNull(f);
 		this.velocity = f.velocity;
 		this.attack = f.attack;
 		this.shield = f.shield;
@@ -165,7 +167,7 @@ public abstract class Fighter {
 		if (!(obj instanceof Fighter)) {
 			return false;
 		}
-		if(getClass() != obj.getClass())
+		if (getClass() != obj.getClass())
 			return false;
 		Fighter other = (Fighter) obj;
 		if (id != other.id) {

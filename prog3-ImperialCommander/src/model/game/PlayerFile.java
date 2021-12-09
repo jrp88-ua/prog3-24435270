@@ -18,9 +18,9 @@ import model.game.exceptions.WrongFighterIdException;
  */
 public class PlayerFile implements IPlayer {
 
-  /**
-   * the reader reading the instructions
-   */
+	/**
+	 * the reader reading the instructions
+	 */
 	private final BufferedReader br;
 	/**
 	 * The ship of the player
@@ -35,10 +35,10 @@ public class PlayerFile implements IPlayer {
 	 */
 	private String fighters;
 
-  /**
-   * @param side The side of the player
-   * @param br the reader reading the instructions
-   */
+	/**
+	 * @param side The side of the player
+	 * @param br   the reader reading the instructions
+	 */
 	public PlayerFile(Side side, BufferedReader br) {
 		Objects.requireNonNull(side);
 		Objects.requireNonNull(br);
@@ -93,7 +93,7 @@ public class PlayerFile implements IPlayer {
 		if ("exit".equals(line))
 			return false;
 		String[] args = line.split(" ");
-		if (line.startsWith("improve")) {
+		if (args[0].equals("improve")) {
 			if (args.length != 3) {
 				System.out.println("ERROR: argumentos invalidos");
 				return true;
@@ -108,8 +108,9 @@ public class PlayerFile implements IPlayer {
 				ship.improveFighter(id, qty, board);
 			} catch (WrongFighterIdException e) {
 				System.out.println("ERROR: " + e.getMessage());
+				return true;
 			}
-		} else if (line.startsWith("patrol")) {
+		} else if (args[0].equals("patrol")) {
 			if (args.length != 2) {
 				System.out.println("ERROR: argumentos invalidos");
 				return true;
@@ -118,8 +119,9 @@ public class PlayerFile implements IPlayer {
 				ship.patrol(Integer.parseInt(args[1]), board);
 			} catch (FighterNotInBoardException | WrongFighterIdException e) {
 				System.out.println("ERROR: " + e.getMessage());
+				return true;
 			}
-		} else if (line.startsWith("launch")) {
+		} else if (args[0].equals("launch")) {
 			if (args.length != 3 && args.length != 4) {
 				System.out.println("ERROR: argumentos invalidos");
 				return true;
@@ -129,9 +131,13 @@ public class PlayerFile implements IPlayer {
 				int y = Integer.parseInt(args[2]);
 				Coordinate c = new Coordinate(x, y);
 				int id;
-				OptionalInt oId = parseNum(args[3]);
-				if (oId.isPresent()) {
-					id = oId.getAsInt();
+				if (args.length == 4) {
+					OptionalInt oId = parseNum(args[3]);
+					if (oId.isPresent()) {
+						id = oId.getAsInt();
+					} else {
+						id = ship.getFirstAvailableFighter(args.length == 4 ? args[3] : "").getId();
+					}
 				} else {
 					id = ship.getFirstAvailableFighter(args.length == 4 ? args[3] : "").getId();
 				}
@@ -139,10 +145,12 @@ public class PlayerFile implements IPlayer {
 			} catch (FighterAlreadyInBoardException | OutOfBoundsException | WrongFighterIdException
 					| NoFighterAvailableException e) {
 				System.out.println("ERROR: " + e.getMessage());
+				return true;
 			}
 			return true;
 		} else {
 			System.out.println("ERROR: option invalida");
+			return true;
 		}
 		return true;
 	}
