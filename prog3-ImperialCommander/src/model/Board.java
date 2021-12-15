@@ -128,8 +128,8 @@ public class Board {
 			throw new RuntimeException(e.getMessage());
 		}
 		if (result == 1) {
-			f.getMotherShip().updateResults(1);
-			enemy.getMotherShip().updateResults(-1);
+			f.getMotherShip().updateResults(1, enemy);
+			enemy.getMotherShip().updateResults(-1, enemy);
 			if (removeDestroyed) {
 				try {
 					removeFighter(enemy);
@@ -142,8 +142,8 @@ public class Board {
 				f.setPosition(c);
 			}
 		} else if (result == -1) {
-			f.getMotherShip().updateResults(-1);
-			enemy.getMotherShip().updateResults(1);
+			f.getMotherShip().updateResults(-1, f);
+			enemy.getMotherShip().updateResults(1, f);
 			if (removeDestroyed) {
 				try {
 					removeFighter(f);

@@ -1,0 +1,4367 @@
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL null {110,85,70})
+(TIEFighter 4 IMPERIAL null {110,85,70})
+(TIEFighter 5 IMPERIAL null {110,85,70})
+(TIEFighter 6 IMPERIAL null {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,100,80})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL null {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL null {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL null {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL null {110,85,70})
+(TIEFighter 4 IMPERIAL null {110,85,70})
+(TIEFighter 5 IMPERIAL null {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,100,80})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL null {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL null {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL null {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+REBEL(0): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL null {110,85,70})
+(TIEFighter 4 IMPERIAL null {110,85,70})
+(TIEFighter 5 IMPERIAL null {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,100,80})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL null {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL null {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       Y  
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL null {110,85,70})
+(TIEFighter 4 IMPERIAL null {110,85,70})
+(TIEFighter 5 IMPERIAL null {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,100,80})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL null {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL null {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  f       
+3|       Y  
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL null {110,85,70})
+(TIEFighter 5 IMPERIAL null {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,100,80})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL null {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL null {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  f       
+3|       Y  
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL null {110,85,70})
+(TIEFighter 5 IMPERIAL null {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL null {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL null {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  f       
+3|       Y  
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL null {110,85,70})
+(TIEFighter 5 IMPERIAL null {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL null {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL null {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  f       
+3|       Y  
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL null {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL null {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL null {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  f       
+3|       YY 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL null {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL null {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  f       
+3|       YY 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL null {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL null {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  f       
+3|       YY 
+4|     f    
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL null {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+REBEL(2): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  f       
+3|       YY 
+4|     f    
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL null {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  f       
+3|       YY 
+4|     f    
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL null {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+IMPERIAL(4): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         i
+1|          
+2|  f       
+3|       YY 
+4|     f    
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL null {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+REBEL(2): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f       
+3|       YY 
+4|     f    
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f       
+3|       YY 
+4|     f    
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+IMPERIAL(5): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|       YY 
+4|     f    
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 6/XWing:8/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL [7,3] {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+REBEL(3): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 1/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 16 REBEL null {80,70,-1}) (X)
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 1/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL null {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+IMPERIAL(6): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|          
+6| b        
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 1/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL null {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+REBEL(2): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|          
+6| b        
+7|          
+8|      A f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 1/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|          
+6| b        
+7|          
+8|      A f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 1/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+IMPERIAL(7): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|          
+6| b        
+7|          
+8|      A f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 1/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+REBEL(3): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|      Y   
+6| b        
+7|          
+8|      A f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 1/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL [6,5] {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|      Y   
+6| b        
+7|          
+8|      A f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 1/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL [6,5] {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+IMPERIAL(7): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|      Y   
+6| b        
+7|          
+8|      A f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 1/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL null {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL [6,5] {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+REBEL(4): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|      Y   
+6| b        
+7|          
+8|      AXf 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 1/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL [6,5] {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|      Y   
+6| b        
+7|          
+8|      AXf 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 1/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL [6,5] {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+IMPERIAL(7): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|      Y f 
+6| b        
+7|          
+8|      AXf 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 1/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL [6,5] {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,85,30})
+
+REBEL(5): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|      Y f 
+6| b        
+7|          
+8|      AXf 
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 1/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL [6,5] {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|      Y f 
+6| b        
+7|          
+8|      AXf 
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 1/0] 6/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL [8,8] {110,85,70})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,80})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL [6,5] {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+IMPERIAL(8): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|      Y f 
+6| b        
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 1/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,70})
+(TIEFighter 6 IMPERIAL null {110,85,-5}) (X)
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/1] 6/XWing:7/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL [6,5] {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+REBEL(6): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|        f 
+6| b        
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEFighter 6 IMPERIAL null {110,85,-5}) (X)
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 17 REBEL null {80,70,-1}) (X)
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|        f 
+6| b        
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+IMPERIAL(7): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3|        Y 
+4|     f    
+5|        f 
+6| b        
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+REBEL(5): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6| b        
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6| b        
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+IMPERIAL(7): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6| b        
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+REBEL(6): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6| b        
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6| b        
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+IMPERIAL(7): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6| b        
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+REBEL(6): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6| b        
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6| b        
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [1,6] {70,30,115})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+IMPERIAL(7): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6|          
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL null {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+REBEL(6): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6|          
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL null {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6|          
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL null {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+IMPERIAL(6): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6|          
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL null {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+REBEL(6): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|        Y 
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6|          
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL null {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL [8,1] {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|        Y 
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6|          
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL null {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL [8,1] {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+IMPERIAL(6): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|        Y 
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6|     b    
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL null {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL [8,1] {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+REBEL(7): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|        Y 
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6|     bY   
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL [8,1] {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|        Y 
+2|  f    f  
+3| A      Y 
+4|     f    
+5|        f 
+6|     bY   
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL [8,5] {110,85,70})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL [8,1] {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+IMPERIAL(7): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|        Y 
+2|  f    f  
+3| A      Y 
+4|     f    
+5|          
+6|     bY   
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 2/1] 5/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [7,2] {110,85,46})
+(TIEFighter 2 IMPERIAL null {110,129,114})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 1/2] 6/XWing:6/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL [8,1] {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+REBEL(8): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f       
+3| A      Y 
+4|     f    
+5|          
+6|     bY   
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 3/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,-6}) (X)
+(TIEFighter 2 IMPERIAL null {110,129,114})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/3] 6/XWing:5/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(YWing 22 REBEL null {80,70,-19}) (X)
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f       
+3| A      Y 
+4|     f    
+5|          
+6|     bY   
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 3/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL null {110,129,114})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/3] 6/XWing:5/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+IMPERIAL(5): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|          
+2|  f       
+3| A      Y 
+4|     f    
+5|          
+6|     bY   
+7|      f   
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 3/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [6,7] {110,129,114})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/3] 6/XWing:5/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+REBEL(7): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3| A      Y 
+4|     f    
+5|          
+6|     bY   
+7|      f   
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 3/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [6,7] {110,129,114})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/3] 6/XWing:5/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3| A      Y 
+4|     f    
+5|          
+6|     bY   
+7|      f   
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 3/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [6,7] {110,129,114})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/3] 6/XWing:5/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+IMPERIAL(6): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3| A      Y 
+4|     f    
+5|          
+6|     bY   
+7|      f   
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 3/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [6,7] {110,129,114})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/3] 6/XWing:5/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,148,128})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+REBEL(8): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3| A      Y 
+4|     f    
+5|          
+6|     bY   
+7|      f   
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 3/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [6,7] {110,129,114})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/3] 6/XWing:5/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3| A      Y 
+4|     f    
+5|          
+6|     bY   
+7|      f   
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 3/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [6,7] {110,129,114})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/3] 6/XWing:5/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+IMPERIAL(6): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3| A      Y 
+4|     f    
+5|          
+6|     bY   
+7|      f   
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 3/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [6,7] {110,129,114})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,70})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/3] 6/XWing:5/YWing:4/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 23 REBEL [1,3] {140,85,30})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+REBEL(8): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3|        Y 
+4|     f    
+5|          
+6|     bY   
+7|      f   
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 4/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [6,7] {110,129,114})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/4] 6/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 23 REBEL null {140,85,-8}) (X)
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3|        Y 
+4|     f    
+5|          
+6|     bY   
+7|      f   
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 4/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [6,7] {110,129,114})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/4] 6/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+IMPERIAL(6): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3|        Y 
+4|     f    
+5|          
+6|     bY   
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 4/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL null {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,160})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/4] 6/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,80})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+REBEL(7): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3|        Y 
+4|     f    
+5|          
+6|     bY   
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL null {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 12 REBEL null {110,100,-1}) (X)
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3|        Y 
+4|     f    
+5|          
+6|     bY   
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL null {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+IMPERIAL(5): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3|        Y 
+4|     f    
+5|          
+6|     bY   
+7|          
+8|      AX  
+9|f    A    
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL null {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [5,9] {140,85,30})
+
+REBEL(7): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3|        Y 
+4|     f    
+5|          
+6|     bY   
+7|          
+8|      AX  
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL null {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3|        Y 
+4|     f    
+5|          
+6|     bY   
+7|          
+8|      AX  
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL null {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,133,78})
+
+IMPERIAL(5): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3|        Y 
+4|     f    
+5|          
+6|     bY   
+7|  f       
+8|      AX  
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL null {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,133,78})
+
+REBEL(6): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3|        Y 
+4|     f    
+5|        X 
+6|     bY   
+7|  f       
+8|      AX  
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3|        Y 
+4|     f    
+5|        X 
+6|     bY   
+7|  f       
+8|      AX  
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [5,4] {110,85,40})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,133,78})
+
+IMPERIAL(6): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AX  
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL null {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL null {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,133,78})
+
+REBEL(7): AFTER REBEL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL null {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|     A   i
+1|      X   
+2|  f       
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL null {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,133,78})
+
+IMPERIAL(5): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f       
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL null {140,133,78})
+
+REBEL(8): AFTER REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+IMPERIAL(6): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+REBEL(9): AFTER REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+IMPERIAL(6): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+REBEL(9): AFTER REBEL
+  0123456789
+  ----------
+0|X   fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL [0,0] {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|X   fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL [0,0] {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+IMPERIAL(6): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|X   fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL [0,0] {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+REBEL(10): AFTER REBEL
+  0123456789
+  ----------
+0|X   fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL [0,0] {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|X   fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL [0,0] {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+IMPERIAL(6): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|X   fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL [0,0] {110,100,80})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+REBEL(10): AFTER REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+IMPERIAL(6): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+REBEL(9): AFTER REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+IMPERIAL(6): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL null {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+REBEL(9): AFTER REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f      Y  
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL [7,9] {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f      Y  
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL [7,9] {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+IMPERIAL(6): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|      X   
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f      Y  
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL [6,1] {110,100,80})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL [7,9] {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+REBEL(10): AFTER REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|          
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f      Y  
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,149,129})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL [7,9] {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|    fA   i
+1|          
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f      Y  
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,149,129})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL [7,9] {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+IMPERIAL(6): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|          
+2|  f      A
+3|        Y 
+4|          
+5|        X 
+6|     bY   
+7|  f       
+8|      AXY 
+9|f      Y  
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,149,129})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL [7,9] {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL null {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+REBEL(9): AFTER REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|          
+2|  f      A
+3|        Y 
+4|          
+5|        XY
+6|     bY   
+7|  f       
+8|      AXY 
+9|f      Y  
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,149,129})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL [7,9] {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL [9,5] {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|    fA   i
+1|          
+2|  f      A
+3|        Y 
+4|          
+5|        XY
+6|     bY   
+7|  f       
+8|      AXY 
+9|f      Y  
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,149,129})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL [7,9] {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL [9,5] {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+IMPERIAL(6): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|          
+2|  f      A
+3|        Y 
+4|          
+5|        XY
+6|     bY   
+7|  f       
+8|      AXY 
+9|f      Y  
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,149,129})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL null {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL [7,9] {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL [9,5] {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+REBEL(10): AFTER REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|X         
+2|  f      A
+3|        Y 
+4|          
+5|        XY
+6|     bY   
+7|  f       
+8|      AXY 
+9|f      Y  
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,149,129})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL [0,1] {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL [7,9] {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL [9,5] {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|    fA   i
+1|X         
+2|  f      A
+3|        Y 
+4|          
+5|        XY
+6|     bY   
+7|  f       
+8|      AXY 
+9|f      Y  
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,149,129})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL [0,1] {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL [7,9] {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL [9,5] {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+IMPERIAL(6): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|X         
+2|  f      A
+3|        Y 
+4|          
+5|        XY
+6|     bY   
+7|  f       
+8|      AXY 
+9|f      Y  
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,149,129})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL [0,1] {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL [7,9] {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL [9,5] {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+REBEL(11): AFTER REBEL
+  0123456789
+  ----------
+0|    fA   i
+1|X         
+2|  f      A
+3|        Y 
+4|          
+5|        XY
+6|     bY   
+7|  f       
+8|      AXY 
+9|f      Y  
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,149,129})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL [0,1] {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL [7,9] {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL [9,5] {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|    fA   i
+1|X         
+2|  f      A
+3|        Y 
+4|          
+5|        XY
+6|     bY   
+7|  f       
+8|      AXY 
+9|f      Y  
+
+Ship [PlayerRandom IMPERIAL Ship 5/2] 4/TIEFighter:1/TIEBomber:1/TIEInterceptor
+(TIEFighter 2 IMPERIAL [2,7] {110,176,162})
+(TIEFighter 3 IMPERIAL [2,2] {110,85,5})
+(TIEFighter 4 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 5 IMPERIAL [4,0] {110,132,87})
+(TIEBomber 7 IMPERIAL [5,6] {70,75,9})
+(TIEInterceptor 8 IMPERIAL [9,0] {145,85,47})
+
+Ship [PlayerRandom REBEL Ship 2/5] 5/XWing:5/YWing:3/AWing
+(XWing 9 REBEL null {110,100,80})
+(XWing 10 REBEL null {110,149,129})
+(XWing 11 REBEL [7,8] {110,100,45})
+(XWing 13 REBEL [0,1] {110,143,123})
+(XWing 14 REBEL [8,5] {110,192,172})
+(YWing 15 REBEL [7,9] {80,70,110})
+(YWing 18 REBEL [6,6] {80,70,110})
+(YWing 19 REBEL [8,3] {80,70,110})
+(YWing 20 REBEL [8,8] {80,70,110})
+(YWing 21 REBEL [9,5] {80,70,110})
+(AWing 24 REBEL [6,8] {140,85,30})
+(AWing 25 REBEL [5,0] {140,85,30})
+(AWing 26 REBEL [9,2] {140,133,78})
+
+IMPERIAL(6):

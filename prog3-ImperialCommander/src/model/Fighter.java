@@ -103,6 +103,13 @@ public abstract class Fighter {
 	public abstract char getSymbol();
 
 	/**
+	 * @return the value of this fighter
+	 */
+	public int getValue() {
+		return getVelocity() + getAttack();
+	}
+
+	/**
 	 * Computes the damage to deal to the given enemy
 	 * 
 	 * @param n     A random number

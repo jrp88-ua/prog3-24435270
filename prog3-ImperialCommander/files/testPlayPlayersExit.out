@@ -1,0 +1,21 @@
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 
+
+Ship [PlayerFile REBEL Ship 0/0] 2/YWing
+(YWing 1 REBEL null {80,70,110})
+(YWing 2 REBEL null {80,70,110})
+
+IMPERIAL(0):

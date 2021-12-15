@@ -15,6 +15,8 @@ import model.exceptions.FighterAlreadyInBoardException;
 import model.exceptions.FighterNotInBoardException;
 import model.exceptions.OutOfBoundsException;
 import model.game.exceptions.WrongFighterIdException;
+import model.game.score.DestroyedFightersScore;
+import model.game.score.WinsScore;
 
 /**
  * Class that represents a game ship
@@ -23,12 +25,40 @@ import model.game.exceptions.WrongFighterIdException;
  */
 public class GameShip extends Ship {
 
-  /**
-   * @param name the name of the ship
-   * @param side the side of the ship
-   */
+	private final WinsScore winsScore;
+	private final DestroyedFightersScore destroyedFightersScore;
+
+	/**
+	 * @param name the name of the ship
+	 * @param side the side of the ship
+	 */
 	public GameShip(String name, Side side) {
 		super(name, side);
+		this.winsScore = new WinsScore(getSide());
+		this.destroyedFightersScore = new DestroyedFightersScore(getSide());
+	}
+
+	@Override
+	public void updateResults(int r, Fighter f) {
+		super.updateResults(r, f);
+		if (r == 1) {
+			getWinsScore().score(r);
+			getDestroyedFightersScore().score(f);
+		}
+	}
+
+	/**
+	 * @return the winsScore
+	 */
+	public WinsScore getWinsScore() {
+		return winsScore;
+	}
+
+	/**
+	 * @return the destroyedFightersScore
+	 */
+	public DestroyedFightersScore getDestroyedFightersScore() {
+		return destroyedFightersScore;
 	}
 
 	/**

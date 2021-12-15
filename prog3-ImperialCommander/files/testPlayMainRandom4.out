@@ -1,0 +1,2817 @@
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL null {110,85,70})
+(TIEInterceptor 3 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,100,80})
+
+IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,100,80})
+
+REBEL(0): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       X  
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [7,3] {110,100,80})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|       X  
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL null {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [7,3] {110,100,80})
+
+IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|       X  
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [7,3] {110,100,80})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,148,128})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,148,128})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,148,128})
+
+REBEL(0): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|f         
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,9] {110,85,70})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,129,115})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,129,115})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|          
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,129,115})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|f         
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|f         
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|f         
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|        X 
+4|          
+5|          
+6|          
+7|f         
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [8,3] {110,148,128})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|f         
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,194,174})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|f         
+8|        f 
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL [8,8] {110,85,70})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,194,174})
+
+IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|f         
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL null {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,194,174})
+
+REBEL(0): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|   X      
+7|f         
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL null {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [3,6] {110,194,174})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|   X      
+7|f         
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL null {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [3,6] {110,194,174})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|   X      
+7|f         
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [3,6] {110,194,174})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|   X      
+7|f         
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [3,6] {110,194,174})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|   X      
+7|f         
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [3,6] {110,194,174})
+
+IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|   X      
+7|f         
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [3,6] {110,194,174})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|   X      
+7|f         
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [3,6] {110,194,174})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|   X      
+7|f         
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [0,7] {110,129,115})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [3,6] {110,194,174})
+
+IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|   X      
+7|          
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,172,158})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [3,6] {110,194,174})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,172,158})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,243,223})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,172,158})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,243,223})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,172,158})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,243,223})
+
+REBEL(0): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,172,158})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,172,158})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,172,158})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,172,158})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|     f    
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,172,158})
+(TIEFighter 2 IMPERIAL [5,8] {110,129,114})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,172,158})
+(TIEFighter 2 IMPERIAL null {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,172,158})
+(TIEFighter 2 IMPERIAL null {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,172,158})
+(TIEFighter 2 IMPERIAL null {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|   f      
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [3,5] {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|   f      
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [3,5] {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|   f      
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [3,5] {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|   f      
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [3,5] {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|   f      
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [3,5] {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|   f      
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [3,5] {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|   f      
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [3,5] {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|   f      
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [3,5] {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|   f      
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [3,5] {110,175,160})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|         X
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [9,6] {110,243,223})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,290,270})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,290,270})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,290,270})
+
+REBEL(0): ERROR:PlayerRandom REBEL Ship:no fighters in board
+AFTER REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,290,270})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,290,270})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         f
+1|f         
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [0,1] {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL null {110,290,270})
+
+REBEL(0): AFTER REBEL
+  0123456789
+  ----------
+0|         f
+1|f         
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [0,1] {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         f
+1|f         
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [0,1] {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         f
+1|f         
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [0,1] {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|         f
+1|f         
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [0,1] {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         f
+1|f         
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [0,1] {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         f
+1|f         
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [0,1] {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|         f
+1|f         
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [0,1] {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         f
+1|f         
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [0,1] {110,222,207})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL null {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|     f    
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [5,6] {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|     f    
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [5,6] {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|         f
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|     f    
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [9,0] {110,216,202})
+(TIEFighter 2 IMPERIAL [5,6] {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|     f    
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,261,248})
+(TIEFighter 2 IMPERIAL [5,6] {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|     f    
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,261,248})
+(TIEFighter 2 IMPERIAL [5,6] {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|  i       
+3|          
+4|          
+5|          
+6|     f    
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,261,248})
+(TIEFighter 2 IMPERIAL [5,6] {110,267,252})
+(TIEInterceptor 3 IMPERIAL [2,2] {145,85,60})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|     f    
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,261,248})
+(TIEFighter 2 IMPERIAL [5,6] {110,267,252})
+(TIEInterceptor 3 IMPERIAL null {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,261,248})
+(TIEFighter 2 IMPERIAL null {110,267,-62}) (X)
+(TIEInterceptor 3 IMPERIAL null {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,129,104})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,290,270})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL null {110,337,317})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL null {110,337,317})
+
+IMPERIAL(0): ERROR:PlayerRandom IMPERIAL Ship:no fighters in board
+AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL null {110,337,317})
+
+REBEL(0): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL null {110,385,366})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL null {110,385,366})
+
+IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|    f     
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [4,7] {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL null {110,385,366})
+
+REBEL(0): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|    f X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [4,7] {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|    f X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [4,7] {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|      i   
+2|          
+3|          
+4|          
+5|          
+6|          
+7|    f X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [4,7] {110,261,248})
+(TIEInterceptor 3 IMPERIAL [6,1] {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|      i   
+2|          
+3|          
+4|          
+5|          
+6|          
+7|    f X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [4,7] {110,261,248})
+(TIEInterceptor 3 IMPERIAL [6,1] {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|      i   
+2|          
+3|          
+4|          
+5|          
+6|          
+7|    f X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [4,7] {110,261,248})
+(TIEInterceptor 3 IMPERIAL [6,1] {145,175,150})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|    f X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [4,7] {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|    f X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [4,7] {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|    f X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [4,7] {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|    f X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [4,7] {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|    f X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [4,7] {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|    f X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [4,7] {110,261,248})
+(TIEInterceptor 3 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,309,296})
+(TIEInterceptor 3 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,309,296})
+(TIEInterceptor 3 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,309,296})
+(TIEInterceptor 3 IMPERIAL null {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|        i 
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,309,296})
+(TIEInterceptor 3 IMPERIAL [8,0] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|        i 
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,309,296})
+(TIEInterceptor 3 IMPERIAL [8,0] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|        i 
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|      X   
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL null {110,309,296})
+(TIEInterceptor 3 IMPERIAL [8,0] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|        i 
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|      X f 
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [8,7] {110,309,296})
+(TIEInterceptor 3 IMPERIAL [8,0] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+AFTER REBEL
+  0123456789
+  ----------
+0|        i 
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|      X f 
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [8,7] {110,309,296})
+(TIEInterceptor 3 IMPERIAL [8,0] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|        i 
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|      X f 
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [8,7] {110,309,296})
+(TIEInterceptor 3 IMPERIAL [8,0] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|        i 
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|      X f 
+8|          
+9|          
+
+Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
+(TIEFighter 1 IMPERIAL [8,7] {110,309,296})
+(TIEInterceptor 3 IMPERIAL [8,0] {145,219,194})
+
+Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
+(XWing 4 REBEL [6,7] {110,385,366})
+
+REBEL(1):

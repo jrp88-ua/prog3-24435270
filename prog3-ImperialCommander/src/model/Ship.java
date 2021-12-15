@@ -19,7 +19,7 @@ import model.exceptions.NoFighterAvailableException;
 public class Ship {
 
 	/**
-	 * List of foghters
+	 * List of fighters
 	 */
 	protected List<Fighter> fleet = new ArrayList<>();
 	/**
@@ -143,8 +143,9 @@ public class Ship {
 	 * Updates the win/losses depending on if r is 1/-1
 	 * 
 	 * @param r amount to update. Only can be 1 or -1
+	 * @param f the fighter
 	 */
-	public void updateResults(int r) {
+	public void updateResults(int r, Fighter f) {
 		if (r == 1) {
 			addWins(1);
 		} else if (r == -1) {

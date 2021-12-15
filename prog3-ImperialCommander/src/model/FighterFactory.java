@@ -1,23 +1,19 @@
 package model;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.util.Objects;
-
-import model.fighters.AWing;
-import model.fighters.TIEBomber;
-import model.fighters.TIEFighter;
-import model.fighters.TIEInterceptor;
-import model.fighters.XWing;
-import model.fighters.YWing;
 
 /**
  * A class to create fighters
+ * 
  * @author Javier Rodríguez Pérez - 24435270R
  */
 public class FighterFactory {
 
-  /**
-   * Don't instanciate this class >:(
-   */
+	/**
+	 * Don't instanciate this class >:(
+	 */
 	private FighterFactory() {
 	}
 
@@ -31,20 +27,13 @@ public class FighterFactory {
 	public static Fighter createFighter(String type, Ship mother) {
 		Objects.requireNonNull(type);
 		Objects.requireNonNull(mother);
-		switch (type) {
-		case "AWing":
-			return new AWing(mother);
-		case "XWing":
-			return new XWing(mother);
-		case "YWing":
-			return new YWing(mother);
-		case "TIEBomber":
-			return new TIEBomber(mother);
-		case "TIEFighter":
-			return new TIEFighter(mother);
-		case "TIEInterceptor":
-			return new TIEInterceptor(mother);
-		default:
+		try {
+			@SuppressWarnings("unchecked")
+			Class<? extends Fighter> clazz = (Class<? extends Fighter>) Class.forName("model.fighters." + type);
+			Constructor<? extends Fighter> constructor = clazz.getConstructor(Ship.class);
+			return constructor.newInstance(mother);
+		} catch (ClassCastException | InstantiationException | IllegalAccessException | IllegalArgumentException
+				| InvocationTargetException | ClassNotFoundException | NoSuchMethodException | SecurityException e) {
 			return null;
 		}
 	}

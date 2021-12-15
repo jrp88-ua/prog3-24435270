@@ -1,0 +1,167 @@
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,30,115})
+
+Ship [PlayerFile REBEL Ship 0/0] 2/AWing
+(AWing 2 REBEL null {140,85,30})
+(AWing 3 REBEL null {140,85,30})
+
+IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2|          
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,35,120})
+
+Ship [PlayerFile REBEL Ship 0/0] 2/AWing
+(AWing 2 REBEL null {140,85,30})
+(AWing 3 REBEL null {140,85,30})
+
+REBEL(0): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2| A        
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,35,120})
+
+Ship [PlayerFile REBEL Ship 0/0] 2/AWing
+(AWing 2 REBEL [1,2] {140,85,30})
+(AWing 3 REBEL null {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2| A        
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 1/TIEBomber
+(TIEBomber 1 IMPERIAL null {70,35,120})
+
+Ship [PlayerFile REBEL Ship 0/0] 2/AWing
+(AWing 2 REBEL [1,2] {140,85,30})
+(AWing 3 REBEL null {140,85,30})
+
+IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2| Ab       
+3|          
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,2] {70,35,120})
+
+Ship [PlayerFile REBEL Ship 0/0] 2/AWing
+(AWing 2 REBEL [1,2] {140,85,30})
+(AWing 3 REBEL null {140,85,30})
+
+REBEL(1): AFTER REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2| Ab       
+3|  A       
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,2] {70,35,120})
+
+Ship [PlayerFile REBEL Ship 0/0] 2/AWing
+(AWing 2 REBEL [1,2] {140,85,30})
+(AWing 3 REBEL [2,3] {140,85,30})
+
+BEFORE IMPERIAL
+  0123456789
+  ----------
+0|          
+1|          
+2| Ab       
+3|  A       
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/0] 1/TIEBomber
+(TIEBomber 1 IMPERIAL [2,2] {70,35,120})
+
+Ship [PlayerFile REBEL Ship 0/0] 2/AWing
+(AWing 2 REBEL [1,2] {140,85,30})
+(AWing 3 REBEL [2,3] {140,85,30})
+
+IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+  0123456789
+  ----------
+0|          
+1|          
+2| A        
+3|  A       
+4|          
+5|          
+6|          
+7|          
+8|          
+9|          
+
+Ship [PlayerFile IMPERIAL Ship 0/1] 
+(TIEBomber 1 IMPERIAL null {70,35,-34}) (X)
+
+Ship [PlayerFile REBEL Ship 1/0] 2/AWing
+(AWing 2 REBEL [1,2] {140,85,20})
+(AWing 3 REBEL [2,3] {140,85,30})
