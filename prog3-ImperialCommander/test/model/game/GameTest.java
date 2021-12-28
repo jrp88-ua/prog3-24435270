@@ -93,7 +93,7 @@ public class GameTest {
 		Side winner = game.play();
 		String sout = Stream2StandardIO();
 		assertEquals(Side.REBEL, winner);
-		String solution = readSolutionFromFile("files/testPlayEmptyShips.out");
+		String solution = readSolutionFromFile("files/testPlayEmptyShipsInPlayerFile.out");
 		compareLines(solution, sout);
 	}
 	
@@ -195,98 +195,7 @@ public class GameTest {
 		String solution = readSolutionFromFile("files/testPlayMainImpExit.out");
 		compareLines(solution, sout);
 	}
-
-	/*Test como MainP4min, IMPERIAL juega y pierde
-	 */
-	@Test
-	public void testPlayMainImpLoss() {
-		String inputImp = "1/TIEBomber\nimprove 1 10\nlaunch 2 2\npatrol 1\nexit\n";
-		plfImperial=makePlayerFile(inputImp,Side.IMPERIAL);
-		String inputReb = "2/AWing\nlaunch 1 2\nlaunch 2 3\nexit\n";
-		plfRebel = makePlayerFile(inputReb, Side.REBEL);
-		game = new Game(plfImperial,plfRebel);
-		standardIO2Stream();
-		Side winner = game.play();
-		String sout = Stream2StandardIO();
-		assertEquals(Side.REBEL, winner);
-		String solution = readSolutionFromFile("files/testPlayMainImpLoss.out");
-		compareLines(solution, sout);
-	}
-
-	/*Test como MainP4min, REBEL juega y pierde
-	 */
-	@Test
-	public void testPlayMainRebLoss() {
-		String inputImp = "2/TIEInterceptor\nlaunch 1 1\nlaunch 2 2\nexit\n";
-		plfImperial=makePlayerFile(inputImp,Side.IMPERIAL);
-		String inputReb = "1/YWing\nlaunch 1 2\npatrol 3\nexit\n";
-		plfRebel = makePlayerFile(inputReb, Side.REBEL);
-		game = new Game(plfImperial,plfRebel);
-		standardIO2Stream();
-		Side winner = game.play();
-		String sout = Stream2StandardIO();
-		assertEquals(Side.IMPERIAL, winner);
-		String solution = readSolutionFromFile("files/testPlayMainRebLoss.out");
-		compareLines(solution, sout);
-	}
 	
-	/*Test como MainP4min, REBEL juega y gana
-	 */
-	@Test
-	public void testPlayMainRebWin() {
-		String inputImp = "2/TIEBomber\nimprove 1 10\nlaunch 1 1\nlaunch 2 2\nexit\n";
-		plfImperial=makePlayerFile(inputImp,Side.IMPERIAL);
-		String inputReb = "2/AWing\nlaunch 1 2\nlaunch 2 3\npatrol 3\nexit\n";
-		plfRebel = makePlayerFile(inputReb, Side.REBEL);
-		game = new Game(plfImperial,plfRebel);
-		standardIO2Stream();
-		Side winner = game.play();
-		String sout = Stream2StandardIO();
-		assertEquals(Side.REBEL, winner);
-		String solution = readSolutionFromFile("files/testPlayMainRebWin.out");
-		compareLines(solution, sout);
-	}
-	
-
-	/* Game del MainP4, pero con 4 fighters
-	 * 
-	 */
-	@Test
-	public void testPlayMainRandom4() {
-		plrImperial = new PlayerRandom(Side.IMPERIAL,4);
-		plrRebel = new PlayerRandom(Side.REBEL,4);	
-		game = new Game(plrImperial,plrRebel);
-	
-		standardIO2Stream();	
-		Side winner = game.play();
-		String sout = Stream2StandardIO();
-		
-		assertEquals(Side.IMPERIAL, winner);
-		System.out.println(sout);
-		String solution = readSolutionFromFile("files/testPlayMainRandom4.out");
-		compareLines(solution, sout);
-	}
-	
-	/* Game del MainP4, pero con 9 fighters
-	 * 
-	 */
-	@Test
-	public void testPlayMainRandom9() {
-		plrImperial = new PlayerRandom(Side.IMPERIAL,9);
-		plrRebel = new PlayerRandom(Side.REBEL,9);	
-		game = new Game(plrImperial,plrRebel);
-	
-		standardIO2Stream();	
-		Side winner = game.play();
-		String sout = Stream2StandardIO();
-		
-		assertEquals(Side.REBEL, winner);
-		System.out.println(sout);
-		String solution = readSolutionFromFile("files/testPlayMainRandom9.out");
-		compareLines(solution, sout);
-	}
-	
-
 	/* Game con dos PlayerRandom con 11 fighters cada uno
 	 * gana REBEL porque IMPERIAL hace 'exit'
 	 */

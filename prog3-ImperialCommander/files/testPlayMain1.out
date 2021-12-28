@@ -1,3 +1,5 @@
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -64,6 +66,8 @@ Ship [PlayerFile REBEL Ship 0/0] 2/YWing
 (YWing 3 REBEL [1,2] {80,70,110})
 (YWing 4 REBEL null {80,70,110})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -130,6 +134,8 @@ Ship [PlayerFile REBEL Ship 0/0] 2/YWing
 (YWing 3 REBEL [1,2] {80,70,110})
 (YWing 4 REBEL [2,3] {80,70,110})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -173,3 +179,6 @@ Ship [PlayerFile IMPERIAL Ship 2/0] 2/TIEInterceptor
 Ship [PlayerFile REBEL Ship 0/2] 
 (YWing 3 REBEL null {80,70,-30}) (X)
 (YWing 4 REBEL null {80,70,-20}) (X)
+
+RANKING WINS: |Player IMPERIAL: 2|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 300|Player REBEL: 0|

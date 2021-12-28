@@ -18,6 +18,8 @@ public class WinsScore extends Score<Integer> {
 
 	@Override
 	public void score(Integer sc) {
+		if (sc == null)
+			return;
 		if (sc == 1)
 			this.score++;
 	}

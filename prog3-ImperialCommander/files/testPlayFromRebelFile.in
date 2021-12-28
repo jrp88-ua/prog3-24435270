@@ -1,0 +1,76 @@
+15/AWing:20/XWing:37/YWing
+launch 4 0
+launch 5 0
+launch 6 0
+launch 1 1
+launch 3 3
+launch 1 5
+launch 4 5
+launch 7 5
+launch 0 6
+launch 3 7
+launch 6 8
+launch 7 1 35
+launch 3 2 34 
+launch 9 2 33
+launch 7 3 32
+launch 4 4 31
+launch 2 6 30
+launch 3 6 29
+launch 1 8 28
+launch 8 8 27
+launch 5 9 26
+launch 3 0 YWing
+launch 7 0 YWing
+launch 4 1 YWing
+launch 6 1 YWing
+launch 4 2 YWing
+launch 7 2 YWing
+launch 1 3 YWing
+launch 2 3 YWing
+launch 6 3 YWing
+launch 3 4 YWing
+launch 5 4 YWing
+launch 8 4 YWing
+launch 9 4 YWing
+launch 5 5 YWing
+launch 9 5 YWing
+launch 5 6 YWing
+launch 9 6 YWing
+launch 2 7 YWing
+launch 6 7 YWing
+launch 0 8 YWing
+launch 3 8 YWing
+launch 4 8 YWing
+launch 5 8 YWing
+launch 9 8 YWing
+launch 0 9 YWing
+launch 3 9 YWing
+launch 9 9 YWing
+launch 8 5 AWing
+launch 9 0 AWing
+launch 0 5 XWing
+launch 0 3 XWing
+launch 8 2 XWing
+launch 8 0 XWing
+patrol 1
+patrol 2
+patrol 3
+patrol 4 
+patrol 5 
+patrol 16
+patrol 17
+patrol 18
+patrol 19
+patrol 20
+patrol 37
+patrol 40
+patrol 41
+patrol 42
+patrol 43
+patrol 44
+patrol 46
+exit
+
+
+

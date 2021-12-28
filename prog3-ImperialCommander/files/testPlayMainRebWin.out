@@ -1,3 +1,5 @@
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -20,7 +22,7 @@ Ship [PlayerFile REBEL Ship 0/0] 2/AWing
 (AWing 3 REBEL null {140,85,30})
 (AWing 4 REBEL null {140,85,30})
 
-IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -42,7 +44,7 @@ Ship [PlayerFile REBEL Ship 0/0] 2/AWing
 (AWing 3 REBEL null {140,85,30})
 (AWing 4 REBEL null {140,85,30})
 
-REBEL(0): AFTER REBEL
+REBEL(0):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -64,6 +66,8 @@ Ship [PlayerFile REBEL Ship 0/0] 2/AWing
 (AWing 3 REBEL [1,2] {140,85,30})
 (AWing 4 REBEL null {140,85,30})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -86,7 +90,7 @@ Ship [PlayerFile REBEL Ship 0/0] 2/AWing
 (AWing 3 REBEL [1,2] {140,85,30})
 (AWing 4 REBEL null {140,85,30})
 
-IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -108,7 +112,7 @@ Ship [PlayerFile REBEL Ship 0/0] 2/AWing
 (AWing 3 REBEL [1,2] {140,85,30})
 (AWing 4 REBEL null {140,85,30})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -130,6 +134,8 @@ Ship [PlayerFile REBEL Ship 0/0] 2/AWing
 (AWing 3 REBEL [1,2] {140,85,30})
 (AWing 4 REBEL [2,3] {140,85,30})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -152,7 +158,7 @@ Ship [PlayerFile REBEL Ship 0/0] 2/AWing
 (AWing 3 REBEL [1,2] {140,85,30})
 (AWing 4 REBEL [2,3] {140,85,30})
 
-IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -174,7 +180,7 @@ Ship [PlayerFile REBEL Ship 0/0] 2/AWing
 (AWing 3 REBEL [1,2] {140,85,30})
 (AWing 4 REBEL [2,3] {140,85,30})
 
-REBEL(2): AFTER REBEL
+REBEL(2):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -195,3 +201,6 @@ Ship [PlayerFile IMPERIAL Ship 0/2]
 Ship [PlayerFile REBEL Ship 2/0] 2/AWing
 (AWing 3 REBEL [1,2] {140,85,9})
 (AWing 4 REBEL [2,3] {140,85,30})
+
+RANKING WINS: |Player REBEL: 2|Player IMPERIAL: 0|
+RANKING DESTROYED: |Player REBEL: 205|Player IMPERIAL: 0|

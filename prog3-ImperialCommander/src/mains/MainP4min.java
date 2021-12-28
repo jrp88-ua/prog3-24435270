@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.Reader;
 import java.io.StringReader;
 
-import model.RandomNumber;
 import model.Side;
 import model.game.Game;
 import model.game.PlayerFile;

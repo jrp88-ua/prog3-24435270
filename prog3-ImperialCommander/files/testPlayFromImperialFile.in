@@ -1,0 +1,75 @@
+20/TIEFighter:25/TIEInterceptor:30/TIEBomber
+launch 0 0
+launch 8 0
+launch 2 1
+launch 1 2
+launch 4 3
+launch 8 3
+launch 1 4
+launch 6 4
+launch 0 5
+launch 7 6
+launch 6 8
+launch 1 7   
+launch 5 7    
+launch 7 8   
+launch 4 9   
+launch 0 1 45
+launch 3 1 44
+launch 2 2 43
+launch 5 2 42
+launch 8 2 41
+launch 0 3 40
+launch 7 4 39
+launch 2 5 38
+launch 0 7 37
+launch 4 7 36
+launch 8 7 35
+launch 9 7 34
+launch 2 9 33
+launch 7 9 32
+launch 9 9 31
+launch 1 0 TIEBomber
+launch 2 0 TIEBomber
+launch 9 0 TIEBomber
+launch 5 1 TIEBomber
+launch 0 2 TIEBomber
+launch 6 2 TIEBomber
+launch 5 3 TIEBomber
+launch 9 3 TIEBomber
+launch 0 4 TIEBomber
+launch 3 5 TIEBomber
+launch 6 5 TIEBomber
+launch 8 5 TIEBomber
+launch 6 6 TIEBomber
+launch 7 7 TIEBomber
+launch 2 8 TIEBomber
+launch 1 9 TIEBomber
+launch 6 9 TIEBomber
+launch 3 0 TIEFighter
+launch 4 1 TIEFighter
+launch 6 1 TIEFighter
+launch 3 4 TIEInterceptor
+launch 3 6 TIEInterceptor
+launch 6 8 TIEBomber
+launch 5 9 TIEBomber
+patrol 10
+patrol 11
+patrol 12
+patrol 13
+patrol 14
+patrol 28
+patrol 29
+patrol 30
+patrol 31
+patrol 32
+patrol 33
+patrol 34
+patrol 55
+patrol 56
+patrol 58
+patrol 59
+patrol 60
+patrol 61
+patrol 62
+

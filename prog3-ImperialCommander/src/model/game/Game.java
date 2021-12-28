@@ -4,21 +4,25 @@ import java.util.Objects;
 
 import model.Side;
 import model.exceptions.InvalidSizeException;
+import model.game.score.DestroyedFightersScore;
+import model.game.score.Ranking;
+import model.game.score.WinsScore;
 
 /**
  * Class that represents a game
+ * 
  * @author Javier Rodríguez Pérez - 24435270R
  */
 public class Game {
 
-  /**
-   * Size of a board
-   */
+	/**
+	 * Size of a board
+	 */
 	public static final int BOARD_SIZE = 10;
-  
-  /**
-   * Board of the game
-   */
+
+	/**
+	 * Board of the game
+	 */
 	private final GameBoard board;
 	/**
 	 * The imperial player
@@ -29,10 +33,10 @@ public class Game {
 	 */
 	private final IPlayer rebel;
 
-  /**
-   * @param imperial the imperial player
-   * @param rebel the rebel player
-   */
+	/**
+	 * @param imperial the imperial player
+	 * @param rebel    the rebel player
+	 */
 	public Game(IPlayer imperial, IPlayer rebel) {
 		Objects.requireNonNull(imperial);
 		Objects.requireNonNull(rebel);
@@ -47,22 +51,24 @@ public class Game {
 		this.rebel.setBoard(this.board);
 	}
 
-  /**
-   * @return the board of the game
-   */
+	/**
+	 * @return the board of the game
+	 */
 	public GameBoard getGameBoard() {
 		return board;
 	}
 
-  /**
-   * Starts the game
-   * @return the wining side
-   */
+	/**
+	 * Starts the game
+	 * 
+	 * @return the wining side
+	 */
 	public Side play() {
 		imperial.initFighters();
 		rebel.initFighters();
 		Side winner = null;
 		do {
+			showRanking();
 			System.out.println("BEFORE IMPERIAL");
 			showBoardAndShip();
 			System.out.print("IMPERIAL(" + board.numFighters(Side.IMPERIAL) + "): ");
@@ -88,7 +94,25 @@ public class Game {
 				break;
 		} while (winner == null);
 		purgeFLeets();
+		showRanking();
 		return winner;
+	}
+
+	/**
+	 * Shows the ranking
+	 */
+	private void showRanking() {
+		Ranking<WinsScore> ws = new Ranking<>();
+		Ranking<DestroyedFightersScore> des = new Ranking<>();
+
+		ws.addScore(imperial.getWinsScore());
+		ws.addScore(rebel.getWinsScore());
+
+		des.addScore(imperial.getDestroyedFightersScore());
+		des.addScore(rebel.getDestroyedFightersScore());
+
+		System.out.println("RANKING WINS: " + ws);
+		System.out.println("RANKING DESTROYED: " + des);
 	}
 
 	/**

@@ -1,0 +1,178 @@
+11/AWing:10/XWing:23/YWing
+launch 4 0
+launch 5 0
+launch 6 0
+launch 1 1
+launch 3 3
+launch 1 5
+launch 4 5
+launch 7 5
+launch 0 6
+launch 3 7
+launch 6 8
+launch 7 1 56
+launch 3 2 57 
+launch 9 2 58
+launch 7 3 59
+launch 4 4 60
+launch 2 6 61
+launch 3 6 62
+launch 1 8 63
+launch 8 8 64
+launch 5 9 65
+launch 3 0 YWing
+launch 7 0 YWing
+launch 4 1 YWing
+launch 6 1 YWing
+launch 4 2 YWing
+launch 7 2 YWing
+launch 1 3 YWing
+launch 2 3 YWing
+launch 6 3 YWing
+launch 3 4 YWing
+launch 5 4 YWing
+launch 8 4 YWing
+launch 9 4 YWing
+launch 5 5 YWing
+launch 9 5 YWing
+launch 5 6 YWing
+launch 9 6 YWing
+launch 2 7 YWing
+launch 6 7 YWing
+launch 0 8 YWing
+launch 3 8 YWing
+launch 4 8 YWing
+launch 5 8 YWing
+improve 45 -90
+improve 46 -90
+improve 47 -90
+improve 48 -90
+improve 49 -90
+improve 50 -90
+improve 51 -90
+improve 52 -90
+improve 53 -90
+improve 54 -90
+improve 55 -90
+improve 56 -90
+improve 57 -90
+improve 58 -90
+improve 59 -90
+improve 60 -90
+improve 61 -90
+improve 62 -90
+improve 63 -90
+improve 64 -90
+improve 65 -90
+improve 66 -90
+improve 67 -90
+improve 68 -90
+improve 69 -90
+improve 70 -90
+improve 71 -90
+improve 72 -90
+improve 73 -90
+improve 74 -90
+improve 75 -90
+improve 76 -90
+improve 77 -90
+improve 78 -90
+improve 79 -90
+improve 80 -90
+improve 81 -90
+improve 82 -90
+improve 83 -90
+improve 84 -90
+improve 85 -90
+improve 86 -90
+improve 87 -90
+improve 88 -90
+launch 4 0 45
+launch 5 0 46
+launch 6 0 47
+launch 1 1 48
+launch 3 3 48
+launch 1 5 50
+launch 4 5 51
+launch 7 5 52
+launch 0 6 53
+launch 3 7 54
+launch 6 8 55
+launch 7 1 56
+launch 3 2 57 
+launch 9 2 58
+launch 7 3 59
+launch 4 4 60
+launch 2 6 61
+launch 3 6 62
+launch 1 8 63
+launch 8 8 64
+launch 5 9 65
+launch 3 0 66   
+launch 7 0 67   
+launch 4 1 68   
+launch 6 1 69   
+launch 4 2 70   
+launch 7 2 71   
+launch 1 3 72   
+launch 2 3 73   
+launch 6 3 74   
+launch 3 4 75   
+launch 5 4 76   
+launch 8 4 77   
+launch 9 4 78   
+launch 5 5 79   
+launch 9 5 80   
+launch 5 6 81   
+launch 9 6 82   
+launch 2 7 83   
+launch 6 7 84   
+launch 0 8 85   
+launch 3 8 86   
+launch 4 8 87   
+launch 5 8 88   
+patrol 45
+patrol 46
+patrol 47
+patrol 48
+patrol 49
+patrol 50
+patrol 51
+patrol 52
+patrol 53
+patrol 54
+patrol 55
+patrol 56
+patrol 57
+patrol 58
+patrol 59
+patrol 60
+patrol 61
+patrol 62
+patrol 63
+patrol 64
+patrol 65
+patrol 66
+patrol 67
+patrol 68
+patrol 69
+patrol 70
+patrol 71
+patrol 72
+patrol 73
+patrol 74
+patrol 75
+patrol 76
+patrol 77
+patrol 78
+patrol 79
+patrol 80
+patrol 81
+patrol 82
+patrol 83
+patrol 84
+patrol 85
+patrol 86
+patrol 87
+patrol 88
+exit

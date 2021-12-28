@@ -1,0 +1,178 @@
+14/TIEFighter:14/TIEInterceptor:16/TIEBomber
+launch 0 0
+launch 8 0
+launch 2 1
+launch 1 2
+launch 4 3
+launch 8 3
+launch 1 4
+launch 6 4
+launch 0 5
+launch 7 6
+launch 6 8
+launch 1 7   
+launch 5 7    
+launch 7 8      
+launch 0 1 16
+launch 3 1 17
+launch 2 2 18
+launch 5 2 19
+launch 8 2 20
+launch 0 3 21
+launch 7 4 22
+launch 2 5 23
+launch 0 7 24
+launch 4 7 25
+launch 8 7 26
+launch 9 7 27
+launch 2 9 28
+launch 7 9 29
+launch 1 0 TIEBomber
+launch 2 0 TIEBomber
+launch 9 0 TIEBomber
+launch 5 1 TIEBomber
+launch 0 2 TIEBomber
+launch 6 2 TIEBomber
+launch 5 3 TIEBomber
+launch 9 3 TIEBomber
+launch 0 4 TIEBomber
+launch 3 5 TIEBomber
+launch 6 5 TIEBomber
+launch 8 5 TIEBomber
+launch 6 6 TIEBomber
+launch 7 7 TIEBomber
+launch 2 8 TIEBomber
+launch 1 9 TIEBomber
+improve 1 10
+improve 2 15
+improve 3 20
+improve 4 25
+improve 5 30
+improve 6 35
+improve 7 40
+improve 8 45
+improve 9 50
+improve 10 55
+improve 11 60
+improve 12 65
+improve 13 70
+improve 14 75
+improve 15 75
+improve 16 80
+improve 16 85
+improve 18 90
+improve 19 95
+improve 20 99
+improve 21 99
+improve 22 95
+improve 23 90
+improve 24 85
+improve 25 80
+improve 26 75
+improve 27 70
+improve 28 65
+improve 29 60
+improve 30 55
+improve 31 50
+improve 32 45
+improve 33 40
+improve 34 35
+improve 35 30
+improve 36 25
+improve 37 20
+improve 38 15
+improve 39 10
+improve 40 5 
+improve 41 10
+improve 42 25
+improve 43 30
+improve 44 35
+launch 0 0 1
+launch 8 0 2
+launch 2 1 3
+launch 1 2 4
+launch 4 3 5
+launch 8 3 6
+launch 1 4 7
+launch 6 4 8
+launch 0 5 9
+launch 7 6 10
+launch 6 8 11
+launch 1 7 12
+launch 5 7 13 
+launch 7 8 14
+launch 4 9 15
+launch 0 1 16
+launch 3 1 17
+launch 2 2 18
+launch 5 2 19
+launch 8 2 20
+launch 0 3 21
+launch 7 4 22
+launch 2 5 23
+launch 0 7 24
+launch 4 7 25
+launch 8 7 26
+launch 9 7 27
+launch 2 9 28
+launch 7 9 29
+launch 9 9 30
+launch 1 0 31
+launch 2 0 32       
+launch 9 0 33
+launch 5 1 34
+launch 0 2 35
+launch 6 2 36
+launch 5 3 37
+launch 9 3 38
+launch 0 4 39
+launch 3 5 40
+launch 6 5 41
+launch 8 5 42
+launch 6 6 43
+launch 7 7 44
+patrol 1
+patrol 2
+patrol 3
+patrol 4
+patrol 5
+patrol 6
+patrol 7
+patrol 8
+patrol 9
+patrol 10
+patrol 11
+patrol 12
+patrol 13
+patrol 14
+patrol 15
+patrol 16
+patrol 17
+patrol 18
+patrol 19
+patrol 20
+patrol 21
+patrol 22
+patrol 23
+patrol 24
+patrol 25
+patrol 26
+patrol 27
+patrol 28
+patrol 29
+patrol 30
+patrol 31
+patrol 32
+patrol 33
+patrol 34
+patrol 35
+patrol 36
+patrol 37
+patrol 38
+patrol 39
+patrol 40
+patrol 41
+patrol 42
+patrol 43
+patrol 44
+exit

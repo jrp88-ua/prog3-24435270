@@ -7,6 +7,7 @@ import model.Side;
 /**
  * Represents a score
  * 
+ * @param <T> the score type
  * @author Javier Rodríguez Pérez - 24435270R
  */
 public abstract class Score<T> implements Comparable<Score<T>> {
@@ -30,6 +31,7 @@ public abstract class Score<T> implements Comparable<Score<T>> {
 
 	/**
 	 * Sets the score
+	 * 
 	 * @param sc The score
 	 */
 	public abstract void score(T sc);
@@ -37,7 +39,7 @@ public abstract class Score<T> implements Comparable<Score<T>> {
 	@Override
 	public int compareTo(Score<T> other) {
 		int c = Integer.compare(this.getScore(), other.getScore()) * -1;
-		if(c == 0) {
+		if (c == 0) {
 			return side.compareTo(other.side);
 		}
 		return c;

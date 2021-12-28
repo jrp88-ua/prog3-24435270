@@ -18,6 +18,7 @@ import model.exceptions.NoFighterAvailableException;
 public class ShipTestP2 {
 
 	Ship ship;
+	Fighter fighter;
 	final String kFleet1 = "5/XWing:12/AWing:3/YWing:2/XWing";
 	final String kFleet2 = "40/XWing:10/AWing:30/YWing:25/XWing:35/TIEFighter:55/TIEBomber:45/TIEInterceptor:100/AWing";
 	final String kFleet3 = "40/XWing:10/AWing:30/YWing:25/AWing:35/XWing:55/TIEBomber:45/TIEBomber:100/AWing"+
@@ -56,6 +57,7 @@ public class ShipTestP2 {
 	@Before
 	public void setUp() throws Exception {
 		ship = new Ship("Tydirium", Side.REBEL);
+		//Fighter fighter = FighterFactory.createFighter("XWing", ship);
 	}
 
 	
@@ -153,7 +155,7 @@ public class ShipTestP2 {
 	/* Se comprueba que UpdateResults(1) incrementa wins en 1 */
 	@Test
 	public void testUpdateResults1() {
-		ship.updateResults(1);
+		ship.updateResults(1,fighter);
 		assertEquals(1,ship.getWins());
 		assertEquals(0, ship.getLosses());
 	}
@@ -162,7 +164,7 @@ public class ShipTestP2 {
 	/* Se comprueba que UpdateResults(-1) incrementa wins en 1 */
 	@Test
 	public void testUpdateResults2() {
-		ship.updateResults(-1);
+		ship.updateResults(-1,fighter);
 		assertEquals(1, ship.getLosses());
 		assertEquals(0, ship.getWins());
 	}
@@ -171,7 +173,7 @@ public class ShipTestP2 {
 	/* Se comprueba que UpdateResults(2) no modifica ni wins ni losses*/
 	@Test
 	public void testUpdateResults() {
-		ship.updateResults(2);
+		ship.updateResults(2,fighter);
 		assertEquals(0, ship.getLosses());
 		assertEquals(0, ship.getWins());
 	}
@@ -468,8 +470,8 @@ public class ShipTestP2 {
 	 */
 	@Test
 	public void testToString3() {
-		for (int i=0; i<30; i++) ship.updateResults(1);
-		for (int i=0; i<45; i++) ship.updateResults(-1);
+		for (int i=0; i<30; i++) ship.updateResults(1,fighter);
+		for (int i=0; i<45; i++) ship.updateResults(-1,fighter);
 		ship.addFighters(kFleet2);
 		compareLines (kToString2, ship.toString());
 	}

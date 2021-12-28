@@ -1,3 +1,5 @@
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -17,7 +19,7 @@ Ship [PlayerFile IMPERIAL Ship 0/0] 1/TIEInterceptor
 
 Ship [PlayerFile REBEL Ship 0/0] 
 
-IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -36,3 +38,5 @@ Ship [PlayerFile IMPERIAL Ship 0/0] 1/TIEInterceptor
 
 Ship [PlayerFile REBEL Ship 0/0] 
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|

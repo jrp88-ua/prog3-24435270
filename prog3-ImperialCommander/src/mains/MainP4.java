@@ -1,6 +1,5 @@
 package mains;
 
-import model.RandomNumber;
 import model.Side;
 import model.game.Game;
 import model.game.PlayerRandom;

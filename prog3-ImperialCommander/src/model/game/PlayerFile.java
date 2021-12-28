@@ -12,6 +12,8 @@ import model.exceptions.FighterNotInBoardException;
 import model.exceptions.NoFighterAvailableException;
 import model.exceptions.OutOfBoundsException;
 import model.game.exceptions.WrongFighterIdException;
+import model.game.score.DestroyedFightersScore;
+import model.game.score.WinsScore;
 
 /**
  * @author Javier Rodríguez Pérez - 24435270R
@@ -169,4 +171,14 @@ public class PlayerFile implements IPlayer {
 		}
 	}
 
+	@Override
+	public DestroyedFightersScore getDestroyedFightersScore() {
+		return getGameShip().getDestroyedFightersScore();
+	}
+	
+	@Override
+	public WinsScore getWinsScore() {
+		return getGameShip().getWinsScore();
+	}
+	
 }

@@ -1,6 +1,8 @@
 package model.game;
 
 import model.Ship;
+import model.game.score.DestroyedFightersScore;
+import model.game.score.WinsScore;
 
 /**
  * Represents a player
@@ -49,5 +51,15 @@ public interface IPlayer {
 	 * @return True if the player keeps playing, false otherwise
 	 */
 	boolean nextPlay();
+
+	/**
+	 * @return the wins score
+	 */
+	WinsScore getWinsScore();
+
+	/**
+	 * @return the destroyed fighters score
+	 */
+	DestroyedFightersScore getDestroyedFightersScore();
 
 }

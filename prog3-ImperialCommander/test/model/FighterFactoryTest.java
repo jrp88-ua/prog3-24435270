@@ -1,5 +1,6 @@
 package model;
 
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
@@ -58,5 +59,10 @@ public class FighterFactoryTest {
 		}catch (NullPointerException e) {}
 	}
 	
+	//P5
+	@Test
+	public void testCreateNewFighter() {
+		assertNotNull(FighterFactory.createFighter("TIEAdvancedFighter", ship));	
+	}
 
 }

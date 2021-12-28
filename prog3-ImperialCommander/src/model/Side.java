@@ -35,5 +35,5 @@ public enum Side {
 	public String[] getTypes() {
 		return Arrays.copyOf(types, types.length);
 	}
-
+	
 }

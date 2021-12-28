@@ -25,7 +25,13 @@ import model.game.score.WinsScore;
  */
 public class GameShip extends Ship {
 
+	/**
+	 * The wins score
+	 */
 	private final WinsScore winsScore;
+	/**
+	 * The destroyed fighters score
+	 */
 	private final DestroyedFightersScore destroyedFightersScore;
 
 	/**

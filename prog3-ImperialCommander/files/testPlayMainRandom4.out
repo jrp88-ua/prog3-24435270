@@ -1,3 +1,5 @@
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -20,7 +22,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,100,80})
 
-IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -42,7 +44,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,100,80})
 
-REBEL(0): AFTER REBEL
+REBEL(0):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -64,6 +66,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [7,3] {110,100,80})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -86,7 +90,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [7,3] {110,100,80})
 
-IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -108,7 +112,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [7,3] {110,100,80})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -130,6 +134,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,148,128})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -152,7 +158,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,148,128})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -174,7 +180,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,148,128})
 
-REBEL(0): AFTER REBEL
+REBEL(0):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -196,6 +202,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -218,7 +226,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
-IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+IMPERIAL(3):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
@@ -241,7 +249,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -263,6 +271,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -285,7 +295,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
-IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+IMPERIAL(3):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
@@ -308,7 +318,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -330,6 +340,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -352,7 +364,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
-IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+IMPERIAL(3):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
@@ -375,7 +387,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -398,6 +410,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -420,7 +434,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
-IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(3):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -442,7 +456,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -465,6 +479,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -487,7 +503,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -509,7 +525,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -532,6 +548,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -554,7 +572,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
-IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+IMPERIAL(3):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
@@ -577,7 +595,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [8,3] {110,148,128})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -599,6 +617,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,194,174})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -621,7 +641,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,194,174})
 
-IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(3):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -643,7 +663,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,194,174})
 
-REBEL(0): AFTER REBEL
+REBEL(0):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -665,6 +685,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [3,6] {110,194,174})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -687,7 +709,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [3,6] {110,194,174})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -709,7 +731,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [3,6] {110,194,174})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -732,6 +754,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [3,6] {110,194,174})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -754,7 +778,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [3,6] {110,194,174})
 
-IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(3):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -776,7 +800,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [3,6] {110,194,174})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -798,6 +822,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [3,6] {110,194,174})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -820,7 +846,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [3,6] {110,194,174})
 
-IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(3):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -842,7 +868,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [3,6] {110,194,174})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -864,6 +890,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,243,223})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -886,7 +914,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,243,223})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -908,7 +936,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,243,223})
 
-REBEL(0): AFTER REBEL
+REBEL(0):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -930,6 +958,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -952,7 +982,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -974,7 +1004,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -996,6 +1026,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1018,7 +1050,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -1040,7 +1072,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -1062,6 +1094,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1084,7 +1118,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -1106,7 +1140,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -1129,6 +1163,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1151,7 +1187,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -1173,7 +1209,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -1196,6 +1232,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1218,7 +1256,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|         f
@@ -1240,7 +1278,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|         f
@@ -1262,6 +1300,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1284,7 +1324,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|         f
@@ -1306,7 +1346,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|         f
@@ -1328,6 +1368,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1350,7 +1392,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+IMPERIAL(3):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
@@ -1373,7 +1415,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -1396,6 +1438,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1418,7 +1462,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+IMPERIAL(3):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
@@ -1441,7 +1485,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -1464,6 +1508,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1486,7 +1532,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(3):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|         f
@@ -1508,7 +1554,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [9,6] {110,243,223})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|         f
@@ -1530,6 +1576,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,290,270})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1552,7 +1600,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,290,270})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|         f
@@ -1574,7 +1622,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,290,270})
 
-REBEL(0): ERROR:PlayerRandom REBEL Ship:no fighters in board
+REBEL(0):ERROR: La nave no tiene cazas en el tablero
 AFTER REBEL
   0123456789
   ----------
@@ -1597,6 +1645,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,290,270})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1619,7 +1669,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,290,270})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|         f
@@ -1641,7 +1691,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL null {110,290,270})
 
-REBEL(0): AFTER REBEL
+REBEL(0):AFTER REBEL
   0123456789
   ----------
 0|         f
@@ -1663,6 +1713,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1685,7 +1737,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+IMPERIAL(3):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
@@ -1708,7 +1760,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -1731,6 +1783,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1753,7 +1807,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-IMPERIAL(3): ERROR:PlayerRandom IMPERIAL Ship:no fighters in ship
+IMPERIAL(3):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
@@ -1776,7 +1830,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|         f
@@ -1798,6 +1852,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1820,7 +1876,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(3):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|         f
@@ -1842,7 +1898,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|         f
@@ -1864,6 +1920,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1886,7 +1944,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|         f
@@ -1908,7 +1966,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -1931,6 +1989,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1953,7 +2013,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|         f
@@ -1975,7 +2035,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -1998,6 +2058,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2020,7 +2082,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|         f
@@ -2042,7 +2104,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -2065,6 +2127,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2087,7 +2151,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-IMPERIAL(3): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(3):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -2109,7 +2173,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -2132,6 +2196,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
+RANKING WINS: |Player IMPERIAL: 0|Player REBEL: 0|
+RANKING DESTROYED: |Player IMPERIAL: 0|Player REBEL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2154,7 +2220,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -2176,7 +2242,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/0] 2/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 0/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -2198,6 +2264,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
+RANKING WINS: |Player REBEL: 1|Player IMPERIAL: 0|
+RANKING DESTROYED: |Player REBEL: 377|Player IMPERIAL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2219,7 +2287,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -2240,7 +2308,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,290,270})
 
-REBEL(1): AFTER REBEL
+REBEL(1):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -2261,6 +2329,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL null {110,337,317})
 
+RANKING WINS: |Player REBEL: 1|Player IMPERIAL: 0|
+RANKING DESTROYED: |Player REBEL: 377|Player IMPERIAL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2282,7 +2352,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL null {110,337,317})
 
-IMPERIAL(0): ERROR:PlayerRandom IMPERIAL Ship:no fighters in board
+IMPERIAL(0):ERROR: La nave no tiene cazas en el tablero
 AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
@@ -2304,7 +2374,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL null {110,337,317})
 
-REBEL(0): AFTER REBEL
+REBEL(0):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -2325,6 +2395,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL null {110,385,366})
 
+RANKING WINS: |Player REBEL: 1|Player IMPERIAL: 0|
+RANKING DESTROYED: |Player REBEL: 377|Player IMPERIAL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2346,7 +2418,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL null {110,385,366})
 
-IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -2367,7 +2439,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL null {110,385,366})
 
-REBEL(0): AFTER REBEL
+REBEL(0):AFTER REBEL
   0123456789
   ----------
 0|          
@@ -2388,6 +2460,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
+RANKING WINS: |Player REBEL: 1|Player IMPERIAL: 0|
+RANKING DESTROYED: |Player REBEL: 377|Player IMPERIAL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2409,7 +2483,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
-IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -2430,7 +2504,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -2452,6 +2526,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
+RANKING WINS: |Player REBEL: 1|Player IMPERIAL: 0|
+RANKING DESTROYED: |Player REBEL: 377|Player IMPERIAL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2473,7 +2549,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -2494,7 +2570,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -2516,6 +2592,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
+RANKING WINS: |Player REBEL: 1|Player IMPERIAL: 0|
+RANKING DESTROYED: |Player REBEL: 377|Player IMPERIAL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2537,7 +2615,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
-IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -2558,7 +2636,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -2580,6 +2658,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
+RANKING WINS: |Player REBEL: 1|Player IMPERIAL: 0|
+RANKING DESTROYED: |Player REBEL: 377|Player IMPERIAL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2601,7 +2681,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
-IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|          
@@ -2622,7 +2702,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -2644,6 +2724,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
+RANKING WINS: |Player REBEL: 1|Player IMPERIAL: 0|
+RANKING DESTROYED: |Player REBEL: 377|Player IMPERIAL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2665,7 +2747,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
-IMPERIAL(0): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(0):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|        i 
@@ -2686,7 +2768,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -2708,6 +2790,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
+RANKING WINS: |Player REBEL: 1|Player IMPERIAL: 0|
+RANKING DESTROYED: |Player REBEL: 377|Player IMPERIAL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2729,7 +2813,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
-IMPERIAL(1): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(1):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|        i 
@@ -2750,7 +2834,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
-REBEL(1): ERROR:PlayerRandom REBEL Ship:no fighters in ship
+REBEL(1):ERROR: La nave no tiene cazas a añadir al tablero
 AFTER REBEL
   0123456789
   ----------
@@ -2772,6 +2856,8 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
+RANKING WINS: |Player REBEL: 1|Player IMPERIAL: 0|
+RANKING DESTROYED: |Player REBEL: 377|Player IMPERIAL: 0|
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2793,7 +2879,7 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
-IMPERIAL(2): AFTER IMPERIAL, BEFORE REBEL
+IMPERIAL(2):AFTER IMPERIAL, BEFORE REBEL
   0123456789
   ----------
 0|        i 
@@ -2814,4 +2900,5 @@ Ship [PlayerRandom IMPERIAL Ship 0/1] 1/TIEFighter:1/TIEInterceptor
 Ship [PlayerRandom REBEL Ship 1/0] 1/XWing
 (XWing 4 REBEL [6,7] {110,385,366})
 
-REBEL(1):
+REBEL(1):RANKING WINS: |Player REBEL: 1|Player IMPERIAL: 0|
+RANKING DESTROYED: |Player REBEL: 377|Player IMPERIAL: 0|

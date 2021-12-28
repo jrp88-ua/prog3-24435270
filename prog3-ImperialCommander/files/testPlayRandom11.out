@@ -1,3 +1,5 @@
+RANKING WINS:  | Player IMPERIAL: 0 | Player REBEL: 0 | 
+RANKING DESTROYED:  | Player IMPERIAL: 0 | Player REBEL: 0 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -163,6 +165,8 @@ Ship [PlayerRandom REBEL Ship 0/0] 8/XWing:9/YWing:2/AWing
 (AWing 36 REBEL null {140,85,30})
 (AWing 37 REBEL null {140,85,30})
 
+RANKING WINS:  | Player IMPERIAL: 0 | Player REBEL: 0 | 
+RANKING DESTROYED:  | Player IMPERIAL: 0 | Player REBEL: 0 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -328,6 +332,8 @@ Ship [PlayerRandom REBEL Ship 0/0] 8/XWing:9/YWing:2/AWing
 (AWing 36 REBEL null {140,85,30})
 (AWing 37 REBEL null {140,85,30})
 
+RANKING WINS:  | Player IMPERIAL: 0 | Player REBEL: 0 | 
+RANKING DESTROYED:  | Player IMPERIAL: 0 | Player REBEL: 0 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -493,6 +499,8 @@ Ship [PlayerRandom REBEL Ship 0/0] 8/XWing:9/YWing:2/AWing
 (AWing 36 REBEL null {140,85,30})
 (AWing 37 REBEL [8,3] {140,85,30})
 
+RANKING WINS:  | Player IMPERIAL: 0 | Player REBEL: 0 | 
+RANKING DESTROYED:  | Player IMPERIAL: 0 | Player REBEL: 0 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -658,6 +666,8 @@ Ship [PlayerRandom REBEL Ship 0/0] 8/XWing:9/YWing:2/AWing
 (AWing 36 REBEL null {140,85,30})
 (AWing 37 REBEL [8,3] {140,85,30})
 
+RANKING WINS:  | Player IMPERIAL: 0 | Player REBEL: 0 | 
+RANKING DESTROYED:  | Player IMPERIAL: 0 | Player REBEL: 0 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -823,6 +833,8 @@ Ship [PlayerRandom REBEL Ship 0/0] 8/XWing:9/YWing:2/AWing
 (AWing 36 REBEL [5,0] {140,85,30})
 (AWing 37 REBEL [8,3] {140,85,30})
 
+RANKING WINS:  | Player IMPERIAL: 0 | Player REBEL: 0 | 
+RANKING DESTROYED:  | Player IMPERIAL: 0 | Player REBEL: 0 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -988,6 +1000,8 @@ Ship [PlayerRandom REBEL Ship 0/1] 8/XWing:8/YWing:2/AWing
 (AWing 36 REBEL [5,0] {140,85,30})
 (AWing 37 REBEL [8,3] {140,85,30})
 
+RANKING WINS:  | Player IMPERIAL: 1 | Player REBEL: 0 | 
+RANKING DESTROYED:  | Player IMPERIAL: 150 | Player REBEL: 0 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1150,6 +1164,8 @@ Ship [PlayerRandom REBEL Ship 0/1] 8/XWing:8/YWing:2/AWing
 (AWing 36 REBEL [5,0] {140,85,30})
 (AWing 37 REBEL [8,3] {140,85,30})
 
+RANKING WINS:  | Player IMPERIAL: 1 | Player REBEL: 0 | 
+RANKING DESTROYED:  | Player IMPERIAL: 150 | Player REBEL: 0 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1312,6 +1328,8 @@ Ship [PlayerRandom REBEL Ship 0/1] 8/XWing:8/YWing:2/AWing
 (AWing 36 REBEL [5,0] {140,85,30})
 (AWing 37 REBEL [8,3] {140,85,30})
 
+RANKING WINS:  | Player IMPERIAL: 1 | Player REBEL: 0 | 
+RANKING DESTROYED:  | Player IMPERIAL: 150 | Player REBEL: 0 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1474,6 +1492,8 @@ Ship [PlayerRandom REBEL Ship 0/1] 8/XWing:8/YWing:2/AWing
 (AWing 36 REBEL [5,0] {140,85,30})
 (AWing 37 REBEL [8,3] {140,85,30})
 
+RANKING WINS:  | Player IMPERIAL: 1 | Player REBEL: 0 | 
+RANKING DESTROYED:  | Player IMPERIAL: 150 | Player REBEL: 0 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1636,6 +1656,8 @@ Ship [PlayerRandom REBEL Ship 0/1] 8/XWing:8/YWing:2/AWing
 (AWing 36 REBEL [5,0] {140,85,30})
 (AWing 37 REBEL [8,3] {140,85,30})
 
+RANKING WINS:  | Player IMPERIAL: 1 | Player REBEL: 0 | 
+RANKING DESTROYED:  | Player IMPERIAL: 150 | Player REBEL: 0 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1798,6 +1820,8 @@ Ship [PlayerRandom REBEL Ship 2/1] 8/XWing:8/YWing:2/AWing
 (AWing 36 REBEL [5,0] {140,85,30})
 (AWing 37 REBEL [8,3] {140,85,30})
 
+RANKING WINS:  | Player REBEL: 2 | Player IMPERIAL: 1 | 
+RANKING DESTROYED:  | Player REBEL: 425 | Player IMPERIAL: 150 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -1954,6 +1978,8 @@ Ship [PlayerRandom REBEL Ship 2/1] 8/XWing:8/YWing:2/AWing
 (AWing 36 REBEL [5,0] {140,85,30})
 (AWing 37 REBEL [8,3] {140,85,30})
 
+RANKING WINS:  | Player REBEL: 2 | Player IMPERIAL: 1 | 
+RANKING DESTROYED:  | Player REBEL: 425 | Player IMPERIAL: 150 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2110,6 +2136,8 @@ Ship [PlayerRandom REBEL Ship 2/1] 8/XWing:8/YWing:2/AWing
 (AWing 36 REBEL [5,0] {140,85,30})
 (AWing 37 REBEL [8,3] {140,85,30})
 
+RANKING WINS:  | Player REBEL: 2 | Player IMPERIAL: 1 | 
+RANKING DESTROYED:  | Player REBEL: 425 | Player IMPERIAL: 150 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2266,6 +2294,8 @@ Ship [PlayerRandom REBEL Ship 2/1] 8/XWing:8/YWing:2/AWing
 (AWing 36 REBEL [5,0] {140,85,30})
 (AWing 37 REBEL [8,3] {140,85,30})
 
+RANKING WINS:  | Player REBEL: 2 | Player IMPERIAL: 1 | 
+RANKING DESTROYED:  | Player REBEL: 425 | Player IMPERIAL: 150 | 
 BEFORE IMPERIAL
   0123456789
   ----------
@@ -2318,4 +2348,5 @@ Ship [PlayerRandom REBEL Ship 2/1] 8/XWing:8/YWing:2/AWing
 (AWing 36 REBEL [5,0] {140,85,30})
 (AWing 37 REBEL [8,3] {140,85,30})
 
-IMPERIAL(9): 
+IMPERIAL(9): RANKING WINS:  | Player REBEL: 2 | Player IMPERIAL: 1 | 
+RANKING DESTROYED:  | Player REBEL: 425 | Player IMPERIAL: 150 | 
