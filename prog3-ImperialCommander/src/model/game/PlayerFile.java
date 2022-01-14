@@ -150,6 +150,18 @@ public class PlayerFile implements IPlayer {
 				return true;
 			}
 			return true;
+		// EXAMEN
+		} else if(args[0].equals("cross")) {
+			if (args.length != 2) {
+				System.out.println("ERROR: argumentos invalidos");
+				return true;
+			}
+			try {
+				ship.cross(Integer.parseInt(args[1]), board);
+			} catch (FighterNotInBoardException | WrongFighterIdException e) {
+				System.out.println("ERROR: " + e.getMessage());
+				return true;
+			}
 		} else {
 			System.out.println("ERROR: option invalida");
 			return true;

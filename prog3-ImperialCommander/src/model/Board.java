@@ -5,6 +5,8 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
+import java.util.List;
+import java.util.ArrayList;
 
 import model.exceptions.FighterAlreadyInBoardException;
 import model.exceptions.FighterIsDestroyedException;
@@ -40,6 +42,49 @@ public class Board {
 			throw new InvalidSizeException(size);
 		this.size = size;
 		board = new HashMap<>();
+	}
+
+	// EXAMEN
+	public void cross(Fighter f) throws FighterNotInBoardException {
+		Objects.requireNonNull(f);
+		if (f.isDestroyed())
+			throw new RuntimeException("ERROR: " + f + " is destroyed");
+		if (!inBoard(f))
+			throw new FighterNotInBoardException(f);
+		List<List<Coordinate>> lines = croosCoordinates(f.getPosition());
+		for(List<Coordinate> line : lines) {
+			for(Coordinate c : line) {
+				Fighter inC = getFighter(c);
+				if(inC == null)
+					continue;
+				if(inC.getSide() == f.getSide()) {
+					// aliado -> dejamos de comprobar esta linea
+					break;
+				} else {
+					// enemigo -> peleamos y acabamos
+					fight(c, f, true, true);
+					return;
+				}
+			}
+		}
+	}
+
+	// EXAMEN
+	public List<List<Coordinate>> croosCoordinates(Coordinate c) {
+		Objects.requireNonNull(c);
+		List<List<Coordinate>> lines = new ArrayList<>();
+		Coordinate[] axisOp = {new Coordinate(0, -1) /*N*/, new Coordinate(0, 1) /*S*/, 
+			new Coordinate(-1, 0) /*W*/, new Coordinate(1, 0) /*E*/ };
+		for(Coordinate toAdd : axisOp) {
+			List<Coordinate> line = new ArrayList<>();
+			Coordinate actual = c;
+			while(inside(actual.add(toAdd))) {
+				actual = actual.add(toAdd);
+				line.add(actual);
+			}
+			lines.add(line);
+		}
+		return lines;
 	}
 
 	/**

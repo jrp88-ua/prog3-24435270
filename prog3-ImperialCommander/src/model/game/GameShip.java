@@ -103,6 +103,12 @@ public class GameShip extends Ship {
 		}
 	}
 
+	// EXAMEN
+	public void cross(int id, Board board)  throws FighterNotInBoardException, WrongFighterIdException {
+		Objects.requireNonNull(board);
+		board.cross(getFighter(id));
+	}
+
 	/**
 	 * Makes the fighter with the given id patrol on the given board
 	 * 
